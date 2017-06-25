@@ -18,7 +18,7 @@ PREFS_SRC_DIR="defaults/preferences"
 PREFS_SRC_FILE="${PREFS_SRC_DIR}/prefs.js"
 PREFS_DST_DIR="${BUILD}/${PREFS_SRC_DIR}"
 
-XULAPP="signplayer"
+XULAPP="xulplayer"
 XULAPP_SRC_DIR="chrome/content/${XULAPP}"
 XULAPP_DST_DIR="${BUILD}/${XULAPP_SRC_DIR}"
 
@@ -35,10 +35,10 @@ LAUNCHER_DST="${BUILD}/${XULAPP}"
 EXT_PLUGIN_SRC_DIR="${HOME}/.mozilla/plugins"
 PLUGIN_DST_DIR="${BUILD}/plugins"
 
-EXT_LIBS_SRC="/usr/lib/libiconv.*"
+EXT_LIBS_SRC="lib/libiconv.*"
 
 #################################helper function####################################################
-function check_file()
+check_file()
 {
     if [ -z $1 ]; then
         return
@@ -50,7 +50,7 @@ function check_file()
     fi
 }
 
-function check_dir()
+check_dir()
 {
     if [ -z $1 ]; then
         return
