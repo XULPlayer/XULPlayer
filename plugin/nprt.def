@@ -1,0 +1,9 @@
+LIBRARY   npxulplayer
+
+EXPORTS
+	NP_GetEntryPoints   @1
+	NP_Initialize       @2
+	NP_Shutdown         @3
+	NP_PreInit			@4
+SECTIONS
+.SharedData READ WRITE SHARED

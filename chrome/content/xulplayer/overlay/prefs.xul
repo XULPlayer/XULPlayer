@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay PUBLIC "-//MOZILLA//DTD XUL V1.0//EN" "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<overlay id="overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<vbox id="prefsSidebar" width="180">
+    <box id="prefsBox" flex="1">
+            <label>Loading</label>
+    </box>
+</vbox>
+</overlay>

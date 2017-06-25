@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+<overlay id="covOptions_overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<tabbox id="tabCovOptions" orient="horizontal">										
+    <tabs orient="vertical" minwidth="100px">
+        <tab label="picture" align="center"/>
+        <tab label="subtitle" align="center"/>
+        <tab label="time" align="center"/>
+    </tabs>
+    <tabpanels orient="horizontal" class="skin_plate OptionsTabs">
+        <tabpanel>
+            <hbox id="option_picture" flex="1">
+                <grid flex="1">                
+                 <groupbox class="pic_group_box">
+                    <rows>
+                        <row align="center">
+                            <label class="tablabel2 pic_menum_label">Resize:</label>
+                            <menulist id="option_picture_resize" class="pic_menum_list">
+                                <menupopup>
+                                    <menuitem label="1920x1080" value="1920x1080"/>
+                                    <menuitem label="1440x816" value="1440x816"/>
+                                    <menuitem label="1366x768" value="1366x768"/>
+                                    <menuitem label="1280x720" value="1280x720"/>
+                                    <menuitem label="1024x756" value="1024x756"/>
+                                    <menuitem label="968x576" value="968x576"/>
+                                    <menuitem label="768x576" value="768x576"/>
+                                    <menuitem label="720x576" value="720x576"/>
+                                    <menuitem label="720x480" value="720x480"/>
+                                    <menuitem label="720x400" value="720x400"/>
+                                    <menuitem label="640x480" value="640x480"/>
+                                    <menuitem label="640x368" value="640x368"/>
+                                    <menuitem label="624x352" value="624x352"/>
+                                    <menuitem label="608x336" value="608x336"/>
+                                    <menuitem label="512x384" value="512x384"/>
+                                    <menuitem label="512x288" value="512x288"/>
+                                    <menuitem label="480x320" value="480x320"/>
+                                    <menuitem label="368x208" value="368x208"/>
+                                    <menuitem label="352x576" value="352x576"/>
+                                    <menuitem label="352x480" value="352x480"/>
+                                    <menuitem label="352x288" value="352x288"/>
+                                    <menuitem label="352x240" value="352x240"/>
+                                    <menuitem label="320x320" value="320x320"/>
+                                    <menuitem label="320x240" value="320x240"/>
+                                    <menuitem label="320x160" value="320x160"/>
+                                    <menuitem label="240x180" value="240x180"/>
+                                    <menuitem label="220x176" value="220x176"/>
+                                    <menuitem label="208x176" value="208x176"/>
+                                    <menuitem label="176x208" value="176x208"/>
+                                    <menuitem label="176x144" value="176x144"/>
+                                    <menuitem label="160x120" value="160x120"/>
+                                    <menuitem label="160x96" value="160x96"/>
+                                    <menuitem label="128x96" value="128x96"/>
+                                    <menuitem label="128x64" value="128x64"/>
+                                </menupopup>
+                            </menulist>
+                       </row>
+                        <row align="center">
+                            <label class="tablabel2 pic_menum_label">Crop:</label>
+                            <menulist id="option_picture_crop" class="pic_menum_list">
+                                <menupopup>
+                                    <menuitem label="Disabled" value="Disabled"/>
+                                    <menuitem label="Crop to fit" value="Crop to fit"/>
+                                    <menuitem label="Expand to fit" value="Expand to fit"/>
+                                </menupopup>
+                            </menulist>
+                        </row>
+                        <row align="center">
+                            <label class="tablabel2 pic_menum_label">Frame Rate:</label>
+                            <menulist id="option_picture_fps" class="pic_menum_list">
+                                <menupopup>
+                                    <menuitem label="Default" value="Default"/>
+                                    <menuitem label="8" value="8"/>
+                                    <menuitem label="10" value="10"/>
+                                    <menuitem label="12" value="12"/>
+                                    <menuitem label="12.5" value="12.5"/>
+                                    <menuitem label="15000/1001" value="15000/1001"/>
+                                    <menuitem label="15" value="15"/>
+                                    <menuitem label="20" value="20"/>
+                                    <menuitem label="24000/1001" value="24000/1001"/>
+                                    <menuitem label="24" value="24"/>
+                                    <menuitem label="25" value="25"/>
+                                    <menuitem label="30000/1001" value="30000/1001"/>
+                                    <menuitem label="30" value="30"/>
+                                </menupopup>
+                            </menulist>
+                        </row>
+                        <row align="center">
+                            <label class="tablabel2 pic_menum_label">Aspect Ratio:</label>
+                            <menulist id="option_picture_aspect" class="pic_menum_list">
+                                <menupopup>                                    
+                                    <menuitem label="4:3" value="4:3"/>
+                                    <menuitem label="16:9" value="16:9"/>
+                                    <menuitem label="5:4" value="5:4"/>
+                                    <menuitem label="3:2" value="3:2"/>
+                                    <menuitem label="2:1" value="2:1"/>
+                                </menupopup>
+                            </menulist>
+                        </row>
+                    </rows>
+                 </groupbox>
+                </grid>
+            </hbox>
+        </tabpanel>
+        <tabpanel>
+            <hbox id="option_subtitle" flex="1">
+                <groupbox class="pic_group_box">
+                     <rows>
+                         <row align="center">
+                            <label class="tablabel2 pic_menum_label">ID:</label>
+                            <textbox id="option_sub_id" width="25px" value="0"></textbox>
+                        </row>
+                        <row align="center">
+                            <label class="tablabel2 pic_menum_label">Scale:</label>
+                            <scale id="option_sub_scale" min="1" max="10" pageincrement="1"></scale>
+                        </row>
+                        <row align="center">
+                            <label class="tablabel2 pic_menum_label">Position:</label>
+                            <scale id="option_sub_pos" min="1" max="100"></scale>
+                        </row>                       
+                        <row>
+                            <label class="tablabel2 pic_menum_label">Font:</label>
+                            <menulist id="option_sub_font" class="pic_menum_list">
+                                <menupopup>
+                                </menupopup>
+                            </menulist>
+                        </row>
+                        <row>
+                            <label class="tablabel2 pic_menum_label">Encoding:</label>
+                            <menulist id="option_sub_encoding" class="pic_menum_list">
+                                <menupopup>
+                                </menupopup>
+                            </menulist>
+                        </row>
+                    </rows>
+                </groupbox>
+            </hbox>												
+        </tabpanel >
+        <tabpanel>
+            <hbox id="option_time" flex="1">
+                 <groupbox class="pic_group_box">
+                    <radiogroup>
+                    <rows>
+                        <row align="center">
+                            <radio label="Mark In" id="ratio_mark_in"></radio>
+                        </row>
+                        <row align="center">
+                            <label class="tablabel2 time_radio_label">Begin Time:</label>
+                            <textbox id="time_mark_in" readonly="true"></textbox>
+                        </row>
+                        <row align="center">
+                            <radio label="Mark Out" id="ratio_mark_out"></radio>
+                        </row>
+                        <row align="center">
+                            <label class="tablabel2 time_radio_label">End Time:</label>
+                            <textbox id="time_mark_out" readonly="true"></textbox>
+                        </row>
+                        <row>
+                            <spacer height="20px"/>
+                        </row>
+                        <row align="center">
+                            <button label="Catch" flex="1" oncommand="time_catch()"></button>
+                            <spacer flex="4" />
+                            <button label="Clear" flex="1" oncommand="time_clear()"></button>
+                        </row>
+                    </rows>
+                    </radiogroup>
+                 </groupbox>
+            </hbox>
+        </tabpanel>
+    </tabpanels>
+</tabbox>   
+</overlay>

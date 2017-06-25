@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/include/extbase.xsl"?>
+<extension>
+  <name>GiPiS 430X</name>
+  <category>gps</category>
+  <vendor>GiPiS</vendor>
+</extension>

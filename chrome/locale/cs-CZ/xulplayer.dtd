@@ -1,0 +1,273 @@
+﻿<!ENTITY player.title   "XULPlayer">
+<!ENTITY player.version   " verze ">
+<!ENTITY player.copyright "XULPlayer je multimediální open-source přehrávač postavený na technologii XUL, distribuovaný pod licencí GPL.">
+<!ENTITY player.btOK   "OK">
+<!ENTITY player.btNO   "NE">
+
+<!ENTITY player.btSTART   "SPUSTIT">
+
+<!ENTITY player.listTrack   "Stopa">
+<!ENTITY player.listChapter   "Kapitola">
+<!ENTITY player.listAudioChannel   "Zvukový kanál">
+<!ENTITY player.listSubtitle   "Titulky">
+
+<!ENTITY player.tabDevices   "Zařízení">
+<!ENTITY player.tabAdvanced   "Pokročilé">
+<!ENTITY player.tabOutput   "Výstup">
+<!ENTITY player.tabEffects   "Efekty">
+<!ENTITY player.tabSplit   "Rozdělení">
+
+<!ENTITY player.sendMPCommand   "Odeslat příkaz MPlayeru">
+<!ENTITY player.getResult   "Získat výsledek">
+<!ENTITY player.videoOut   "Výstup videa">
+<!ENTITY player.audioOut   "Výstup zvuku">
+<!ENTITY player.outputChannels   "Output Channels">
+<!ENTITY player.noAccel   "Bez akcelerace">
+<!ENTITY player.options   "Možnosti">
+<!ENTITY player.default   "Výchozí">
+<!ENTITY player.none   "Žádný">
+<!ENTITY player.extraCmdLine   "Další možnosti příkazového řádku">
+<!ENTITY player.fullView "Kompletní rozhraní">
+<!ENTITY player.compactView "Kompaktní rozhraní">
+<!ENTITY player.simpleView "Jednoduché rozhraní">
+<!ENTITY player.miniView "Mini rozhraní">
+<!ENTITY player.deviceView "Device View">
+<!ENTITY player.priority "Priorita">
+<!ENTITY player.idle "Nečinný">
+<!ENTITY player.belowNormal "Podprůměrná">
+<!ENTITY player.normal "Normální">
+<!ENTITY player.aboveNormal "Podprůměrná">
+<!ENTITY player.high "Vysoká">
+
+<!ENTITY menu.files "Soubor">
+<!ENTITY menu.openUrl   "Open URL">
+<!ENTITY menu.openFile   "Otevřít soubor">
+<!ENTITY menu.addFolder "Přidat složku">
+<!ENTITY menu.addFolderSub "Přidat složku &amp; podsložky">
+<!ENTITY menu.exit "Ukončit">
+<!ENTITY menu.options "Možnosti">
+<!ENTITY menu.controls "Ovládání">
+<!ENTITY menu.detached "Samostatné okno s videem">
+<!ENTITY menu.videoSize "Velikost videa">
+<!ENTITY menu.fitWindow "Přizpůsobit oknu">
+<!ENTITY menu.fitVideo "Přizpůsobit velikosti videa">
+<!ENTITY menu.fullScreen   "Celá obrazovka">
+<!ENTITY menu.windowTop "Vždy navrchu">
+
+<!ENTITY menu.audioSet "Zvuk">
+<!ENTITY menu.switchAudio "Přepnout zvuk">
+<!ENTITY menu.delayAo "Zpoždění zvuku o 0.1S">
+<!ENTITY menu.advanceAo "Zrychlení zvuku o 0.1S">
+<!ENTITY menu.refreshAo "Resetovat synchronizaci zvuku...">
+<!ENTITY menu.osdMsg "Informace v obraze">
+<!ENTITY menu.switchOsd "Přepnout informace o přehrávání">
+<!ENTITY menu.shortcutTips "Shortcut Tips">
+<!ENTITY menu.subtitle "Titulky">
+<!ENTITY menu.switchSub "Přepnout titulky">
+<!ENTITY menu.upSub "Zvýšit umístění titulků">
+<!ENTITY menu.downSub "Snížit umístění titulků">
+<!ENTITY menu.reduceSub "Zmenšit titulky">
+<!ENTITY menu.enlargeSub "Zvětšit titulky">
+<!ENTITY menu.delaySub "Zpoždění titulků o 0.1S">
+<!ENTITY menu.advanceSub "Zrychlení titulků o 0.1S">
+<!ENTITY menu.refreshSub "Resetovat synchronizaci titulků...">
+<!ENTITY menu.loadSubFont "Načíst písmo titulků...">
+<!ENTITY menu.loadSubFile "Načíst soubor s titulky...">
+<!ENTITY menu.playSpeed "Rychlost přehrávání">
+<!ENTITY menu.speed1x "Rychlost 1x">
+<!ENTITY menu.speed2x "Rychlost 2x">
+<!ENTITY menu.speedUp "Zvýšit rychlost">
+<!ENTITY menu.speedDown "Snížit rychlost">
+
+<!ENTITY menu.transform "Transformace obrazu">
+<!ENTITY menu.transRestore "Originální">
+<!ENTITY menu.rotate90 "Otočení o 90">
+<!ENTITY menu.rotate270 "Otočení o 270">
+<!ENTITY menu.rotate90Flip "Otočení o 90 &amp; převrácení">
+<!ENTITY menu.rotate270Flip "Otočení o 270 &amp; převrácení">
+<!ENTITY menu.mirror "Zrcadlový obraz">
+<!ENTITY menu.flip "Převrácený obraz">
+<!ENTITY menu.tipsSetting "Nastavení upozornění">
+<!ENTITY menu.tipScreenshot "Upozornit po sejmutí obrazovky">
+<!ENTITY menu.tipSetLang "Upozornit po nastavení jazyka">
+
+<!ENTITY menu.keepAspect "Zachovat poměr stran">
+<!ENTITY menu.openDVD   "Otevřít DVD">
+<!ENTITY menu.openVCD   "Otevřít VCD">
+<!ENTITY menu.openCD   "Otevřít CD">
+<!ENTITY menu.help "Nápověda">
+<!ENTITY menu.about "O programu">
+<!ENTITY menu.visitWebsite "Navštívit webovou stránku">
+<!ENTITY menu.visitCNWebsite "Navštívit čínskou stránku">
+<!ENTITY menu.selFile "Vybrat soubor na disku">
+<!ENTITY menu.selItem "Vybrat položku ze seznamu stop">
+<!ENTITY menu.selectedFiles "Vybrané soubory">
+<!ENTITY menu.screenshot "Sejmout obrazovku">
+<!ENTITY menu.imgshots "Get Video Screenshots">
+<!ENTITY menu.language "Jazyk">
+<!ENTITY menu.current "Aktuální">
+<!ENTITY menu.english "English">
+<!ENTITY menu.zhCN "Chinese (Simplified)">
+<!ENTITY menu.zhTW "Chinese (Traditional)">
+<!ENTITY menu.korean "Korean">
+<!ENTITY menu.slovak "Slovak">
+<!ENTITY menu.german "German">
+<!ENTITY menu.czech "Czech">
+<!ENTITY menu.japanese "Japanese">
+
+<!ENTITY menu.setSkin "Change Skin">
+<!ENTITY menu.mediaLib "Media Library">
+<!ENTITY menu.convertOptions "Convert Options">
+
+<!ENTITY menu.transcode "Transcode">
+<!ENTITY menu.transcode.start "Start Transcoding">
+<!ENTITY menu.transcode.stop "Stop Transcoding">
+<!ENTITY menu.transcode.pause "Pause Transcoding">
+<!ENTITY menu.transcode.setOutputFolder "Set Output Folder">
+<!ENTITY menu.transcode.preview "Preview Transcoded">
+<!ENTITY menu.transcode.previewDual "Compare in dual mode">
+
+<!ENTITY common.OK      "OK">
+<!ENTITY common.cancel      "Zrušit">
+<!ENTITY common.apply      "Použít">
+
+<!ENTITY player.playlist "Seznam stop">
+<!ENTITY player.effects "Efekty">
+<!ENTITY player.properties "Vlastnosti">
+<!ENTITY player.projector "Projektor">
+<!ENTITY player.audio "Zkuk">
+<!ENTITY player.video "Video">
+<!ENTITY player.codec "Kodek">
+<!ENTITY player.bitrate "Přenosová rychlost">
+<!ENTITY player.width "Šířka">
+<!ENTITY player.height "Výška">
+<!ENTITY player.fps "Počet snímků">
+<!ENTITY player.aspect "Poměr stran">
+<!ENTITY player.srate "Rychlost vzorkování">
+<!ENTITY player.channels "Kanály">
+<!ENTITY player.forward "Následující">
+<!ENTITY player.rewind "Předcházející">
+<!ENTITY player.next "Další">
+<!ENTITY player.previous "Předchozí">
+<!ENTITY player.stop "Zastavit">
+<!ENTITY player.pause "Pauza">
+<!ENTITY player.play "Přehrát">
+<!ENTITY player.url "URL">
+<!ENTITY player.browser "Prohlížeč">
+<!ENTITY player.dualMode "Režim dvou videí">
+<!ENTITY player.player "Přehrávač">
+<!ENTITY player.crossFading "Prolnutí">
+<!ENTITY player.pickFile "Vybrat soubor">
+<!ENTITY player.fixedOffset "Pevné vyrovnání">
+<!ENTITY player.reset "Reset">
+<!ENTITY player.resolution "Resolution">
+
+<!ENTITY player.dual.synchronise "Synchronise">
+<!ENTITY player.dual.syncPlay1 "Synchronise to Player 1">
+<!ENTITY player.dual.syncPlay2 "Synchronise to Player 2">
+<!ENTITY player.dual.syncToPos "Synchronise to Pos...">
+<!ENTITY player.dual.syncReplay "Replay Synchronously">
+
+<!ENTITY playlist.play "Přehrát">
+<!ENTITY playlist.add "Přidat soubor">
+<!ENTITY playlist.remove "Odstranit">
+<!ENTITY playlist.clear "Vyčistit">
+<!ENTITY playlist.title "Název">
+<!ENTITY playlist.filesize "Velikost souboru">
+<!ENTITY playlist.filetype "Typ souboru">
+<!ENTITY playlist.filename "Cesta k souboru">
+<!ENTITY playlist.shuffle "Náhodné přehrávání">
+<!ENTITY playlist.repeat "Repeat">
+
+<!ENTITY listManager.add "New">
+<!ENTITY listManager.rename "Rename">
+<!ENTITY listManager.title "List Manager">
+<!ENTITY listManager.load "Load Playlist...">
+<!ENTITY listManager.rename "Rename">
+
+<!ENTITY effects.colorAdjust "Úprava barev">
+<!ENTITY effects.brightness "Světlost">
+<!ENTITY effects.contrast "Kontrast">
+<!ENTITY effects.saturation "Nasycení">
+<!ENTITY effects.gamma "Gama">
+<!ENTITY effects.red "Červená">
+<!ENTITY effects.green "Zelená">
+<!ENTITY effects.blue "Modrá">
+<!ENTITY effects.postProc "Post-Produkce">
+<!ENTITY effects.autoLevel "Automatická úroveň">
+<!ENTITY effects.deblocking "Deblockování">
+<!ENTITY effects.deringing "Deringování">
+<!ENTITY effects.horizontal "Horizontální">
+<!ENTITY effects.vertical "Vertikální">
+<!ENTITY effects.disabled "Vypnuto">
+<!ENTITY effects.enabled "Zapnuto">
+<!ENTITY effects.denoising "Odstranění šumu">
+<!ENTITY effects.deinterlacing "Odstranění prokládání">
+<!ENTITY effects.linearBlend "Lineární mísení">
+<!ENTITY effects.linearInterp "Lineární interpolace">
+<!ENTITY effects.cubicInterp "Prostorová interpolace">
+<!ENTITY effects.median "Střední">
+<!ENTITY effects.firLowpass "FIR lowpass">
+<!ENTITY effects.aspect "Poměr stran">
+<!ENTITY effects.autoDetect "Automatické zjištění">
+<!ENTITY effects.normal "Normální">
+<!ENTITY effects.full "Plné">
+
+<!ENTITY projector.fuseWidth "Šířka překrytí">
+<!ENTITY projector.rollWidth "Šířka výstupu">
+<!ENTITY projector.fuseArg1 "Výstup Arg1">
+<!ENTITY projector.fuseArg2 "Výstup Arg2">
+<!ENTITY projector.fusePos "Pozice překrytí">
+<!ENTITY projector.geometry "Geometrie">
+<!ENTITY projector.topCurve "Horní zakřivení">
+<!ENTITY projector.bottomCurve "Spodní zakřivení">
+<!ENTITY projector.window "Okno">
+<!ENTITY projector.screen "Obrazovka">
+
+<!ENTITY lyricList.title "Text">
+<!ENTITY medialib.searchMedia "Search Media Files">
+<!ENTITY medialib.importMedia "Import Media Files">
+<!ENTITY medialib.nowPlaying "Now Playing">
+<!ENTITY medialib.videoFiles "Video">
+<!ENTITY medialib.audioFiles "Audio">
+<!ENTITY medialib.imageFiles "Images">
+
+<!ENTITY mediaList.title "Title">
+<!ENTITY mediaList.duration "Duration">
+<!ENTITY mediaList.size "FileSize">
+<!ENTITY mediaList.genre "Genre">
+<!ENTITY mediaList.artist "Arist">
+<!ENTITY mediaList.album "Album">
+<!ENTITY mediaList.location "Location">
+<!ENTITY mediaList.transcoded "Transcoded">
+
+<!ENTITY mediaList.rate "Rate">
+<!ENTITY mediaList.addTo "Add to">
+<!ENTITY mediaList.homeVideo "Home video">
+<!ENTITY mediaList.movie "Movie">
+<!ENTITY mediaList.episode "Episode">
+<!ENTITY trancode.start "Start transcode">
+<!ENTITY trancode.pause "Pause transcode">
+<!ENTITY trancode.stop "Stop transcode">
+
+<!ENTITY tips.browser.goHome "Load Homepage">
+<!ENTITY tips.browser.goBack "Go Back">
+<!ENTITY tips.browser.goPrev "Go Forward">
+<!ENTITY tips.browser.stop "Stop">
+<!ENTITY tips.browser.refresh "Refresh">
+
+<!ENTITY tools.srcfile.name "Source File">
+<!ENTITY tools.outputdir.name "Output Directory">
+<!ENTITY tools.pictures.number "Output Image Number">
+<!ENTITY tools.outputimg.size "Output Image Size (By pixel)">
+<!ENTITY tools.outputimg.width "Output Image Width">
+<!ENTITY tools.outputimg.height "Output Image Height">
+<!ENTITY tools.aspect.keep "Keep Aspect">
+<!ENTITY tools.outputdir.browse "Browse">
+<!ENTITY tools.outputdir.default "Default Path">
+<!ENTITY tools.browse.info "Choose and Set">
+<!ENTITY tools.btn.start "start">
+<!ENTITY tools.btn.close "exit">
+<!ENTITY tools.imgshots.title "Make Shots">
+
+<!ENTITY window.box.close "Close">

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://xulplayer/skin/browser-toolbar.css" type="text/css"?>
+<?xul-overlay href="overlay/browser_toolbar.xul"?>
+
+<window id="litebrowser"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	onload="liteBrowserInit('http://xulplayer.sourceforge.net')"
+	width="960"
+	height="720"
+	title="Lite Browser"
+	persist="width height screenX screenY">
+
+<script src="js/litebrowser.js" type="application/x-javascript"/>
+
+<vbox flex="1">
+	<toolbar id="browser_toolbar"/>	<browser id="mcex" type="content-primary" flex="1" src="html/loading.html"/>	<Statusbar id="browseStatus">		<statusbarpanel id="brand" width="120" label="xulplayer"/>        <statusbarpanel id="webAddress" flex="1" />    </Statusbar></vbox>
+</window>

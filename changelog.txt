@@ -1,0 +1,141 @@
+0.5-pre4
+--------
+[add] detailed media information display
+[add] lite browser
+[fix] several minor issues
+
+0.5-pre3
+--------
+[fix] shortcut key no function in full screen playback mode
+[fix] progress bar not updating after switching back from full screen
+
+0.5-pre2
+--------
+[add] multi-audio channel output option
+[fix] startup subtitle size issue
+[update] installer automatically download XULRunner from Internet
+[update] some shortcut keys adjusted
+
+0.5-pre1
+--------
+[add] multiple playlists
+[add] auto saving playlists
+[add] subtitle font controls
+[add] minimized to tray
+[add] device view for transcoding for mobile devices (not yet usable)
+[add] able to use Firefox 3 as XUL runtime
+[update] new icon design
+
+0.2.1.5
+-------
+[fix] screen saver issue
+[add] a user-contributed black skin
+[update] MPlayer r25908
+
+0.2.1.4
+-------
+[add] show progressbar when click mouse button under fullscreen mode
+[add] shortcuts for color adjustment (keys on numpad)
+[add] shortcut "Ctrl+Q" to quit xulplayer
+[fix] "window fit to video" issues
+
+0.2.1.3
+-------
+[update] MPlayer r25349
+
+0.2.1.2
+-------
+[fix] video not centered in window
+[fix] playlist not working when it is hidden
+[fix] open file with assosiation not working bug
+[update] MPlayer r25119
+
+0.2.1.1
+-------
+[update] Pinky skin
+[update] MPlayer r24968
+
+0.2.1.0
+-------
+[add] scratch media library support
+[fix] window resizing issue
+[fix] full screen mode keyboard control issue
+[fix] adding folder issue with file names in foreign character set
+
+0.2.0.2
+-------
+[add] changeable skin support
+[add] new Pinky skin
+[fix] some improper behaviors
+[update] rearranged effects tab
+
+0.2.0.0
+-------
+[add] skin support and a new sleeve skin
+[fix] crashing on exit issue
+[fix] lots of minor bugfixes and improvements
+[update] MPlayer 1.0rc2
+[update] reduce XULRunner size
+
+0.1.0.0
+-------
+[add] subtitle support
+[add] audio delay option
+[add] playback speed adjustment
+[add] video rotation
+[add] Flash (swf) files playback 
+[update] MPlayer r24712
+
+0.0.6.3
+-------
+[add] Czech locale
+[fix] MPlayer compliation issue
+[update] removed xvidcore.dll dependency from MPlayer
+[update] xulrunner-1.9a9pre
+
+0.0.6.0
+-------
+[add] drag-and-drop support
+[add] UI language option
+[add] playlist shuffle mode
+[update] lyric support improved
+[update] MPlayer r24572
+
+0.0.5.0
+-------
+[add] lyric show (LRC files)
+[add] screenshot button
+[fix] some misc. bugfixes
+
+0.0.4.1
+-------
+[add] experimental dual-video mode
+[add] Slovak locale file
+[fix] minor bugfixes
+[update] MPlayer r24096
+[update] xulrunner-1.9a8pre
+
+0.0.3.2
+-------
+[add] video window size modes
+[add] moving of video window by mouse
+
+0.0.3.1
+-------
+[add] image (png, jpeg, gif) display feature
+[fix] a memory leak in the plugin
+[fix] Windows 2000 compatibility issue
+
+0.0.3.0
+-------
+[add] browser tab
+[fix] left/right arrow key not working after dragging the time bar
+[fix] display file size in playlist
+[fix] some minor bugs
+
+0.0.2.2
+-------
+[add] view mode options
+[add] "Add Folder" function
+[add] keyboard shortcuts for playback forward/rewind
+[fix] a workaround for full screen mode issue

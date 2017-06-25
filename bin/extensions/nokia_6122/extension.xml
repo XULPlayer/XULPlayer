@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/include/extbase.xsl"?>
+<extension>
+  <name>Nokia 6122</name>
+  <category>phone</category>
+  <vendor>Nokia</vendor>
+</extension>

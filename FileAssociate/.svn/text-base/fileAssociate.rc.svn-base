@@ -1,0 +1,164 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 276, 308
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Media File Association--Xulplayer"
+CLASS "MyDlgClass"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,144,287,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,207,287,50,14
+    LTEXT           "Choose file formats you want to associate with xulplayer:",IDC_STATIC,14,6,190,13
+    GROUPBOX        "Windows media",IDC_STATIC,7,19,262,39
+    CONTROL         "avi",IDC_AVI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,31,32,11
+    GROUPBOX        "Real media",IDC_STATIC,7,62,262,42
+    CONTROL         "rm",IDC_RM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,74,32,11
+    CONTROL         "ram",IDC_RAM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,70,74,32,11
+    CONTROL         "rmvb",IDC_RMVB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,125,74,32,11
+    CONTROL         "rmp",IDC_RMP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,180,74,32,11
+    GROUPBOX        "MPEG media",IDC_STATIC,7,108,262,43
+    CONTROL         "mpg",IDC_MPG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,121,32,11
+    CONTROL         "mpeg",IDC_MPEG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,70,121,32,11
+    CONTROL         "mpe",IDC_MPE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,125,121,32,11
+    CONTROL         "ra",IDC_RA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,235,74,32,11
+    CONTROL         "wmv",IDC_WMV,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,70,31,32,11
+    CONTROL         "wmp",IDC_WMP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,125,30,32,11
+    CONTROL         "asf",IDC_ASF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,235,30,32,11
+    CONTROL         "wm",IDC_WM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,180,30,32,11
+    CONTROL         "wma",IDC_WMA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,44,32,11
+    CONTROL         "wav",IDC_WAV,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,70,44,32,11
+    CONTROL         "mid",IDC_MID,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,125,44,32,11
+    CONTROL         "rmi",IDC_RMI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,235,44,32,11
+    CONTROL         "aif",IDC_AIF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,180,44,32,11
+    CONTROL         "rt",IDC_RT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,88,32,11
+    CONTROL         "rp",IDC_RP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,70,88,32,11
+    CONTROL         "smi",IDC_SMI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,125,88,32,11
+    CONTROL         "smil",IDC_SMIL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,180,88,32,11
+    CONTROL         "mp4",IDC_MP4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,180,121,32,11
+    CONTROL         "m4v",IDC_M4V,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,235,121,32,11
+    CONTROL         "m4p",IDC_M4P,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,135,32,11
+    CONTROL         "mpa",IDC_MPA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,70,135,32,11
+    CONTROL         "mp2",IDC_MP2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,125,135,32,11
+    CONTROL         "m4a",IDC_M4A,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,180,135,32,11
+    CONTROL         "aac",IDC_AAC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,235,135,32,11
+    GROUPBOX        "Quicktime media",IDC_STATIC,7,155,262,43
+    CONTROL         "mov",IDC_MOV,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,169,32,11
+    CONTROL         "qt",IDC_QT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,70,169,32,11
+    CONTROL         "mr",IDC_MR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,125,169,32,11
+    CONTROL         "3gp",IDC_3GP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,180,169,32,11
+    CONTROL         "3gpp",IDC_3GPP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,235,169,32,11
+    CONTROL         "3g2",IDC_3G2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,182,32,11
+    CONTROL         "3gp2",IDC_3GP2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,70,182,32,11
+    GROUPBOX        "Other media",IDC_STATIC,7,202,262,43
+    CONTROL         "mp3",IDC_MP3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,229,32,11
+    CONTROL         "ogm",IDC_OGM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,70,216,32,11
+    CONTROL         "flv",IDC_FLV,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,125,216,32,11
+    CONTROL         "vob",IDC_VOB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,180,216,32,11
+    CONTROL         "swf",IDC_SWF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,235,216,32,11
+    CONTROL         "mkv",IDC_MKV,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,216,32,11
+    CONTROL         "ogg",IDC_OGG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,70,229,32,11
+    CONTROL         "cda",IDC_CDA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,235,229,32,11
+    CONTROL         "ape",IDC_APE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,180,229,32,11
+    CONTROL         "flac",IDC_FLAC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,125,229,32,11
+    PUSHBUTTON      "Select all",IDC_SELECT,18,287,50,14
+    PUSHBUTTON      "Deselect all",IDC_DESELECT,81,287,50,14
+    GROUPBOX        "File association backup | restore",IDC_STATIC,7,249,262,32
+    PUSHBUTTON      "Backup File Association",IDC_BACKUP,28,261,90,15
+    PUSHBUTTON      "Restore from...",IDC_RESTORE,157,261,90,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 269
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 301
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "assoc.ico"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

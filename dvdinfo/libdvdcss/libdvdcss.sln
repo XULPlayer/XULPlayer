@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libdvdcss", "libdvdcss.vcproj", "{002AD6E7-E2F3-4C49-98D4-B6EADD0C5C0D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{002AD6E7-E2F3-4C49-98D4-B6EADD0C5C0D}.Debug.ActiveCfg = Debug|Win32
+		{002AD6E7-E2F3-4C49-98D4-B6EADD0C5C0D}.Debug.Build.0 = Debug|Win32
+		{002AD6E7-E2F3-4C49-98D4-B6EADD0C5C0D}.Release.ActiveCfg = Release|Win32
+		{002AD6E7-E2F3-4C49-98D4-B6EADD0C5C0D}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

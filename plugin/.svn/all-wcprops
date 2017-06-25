@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/615/trunk/plugin
+END
+npp_gate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/452/trunk/plugin/npp_gate.cpp
+END
+player.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/plugin/player.h
+END
+plugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/456/trunk/plugin/plugin.h
+END
+methods.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/615/trunk/plugin/methods.cpp
+END
+device.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/287/trunk/plugin/device.h
+END
+nprt.rc
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/plugin/nprt.rc
+END
+xulplayer.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/615/trunk/plugin/xulplayer.vcproj
+END
+droptarget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/plugin/droptarget.cpp
+END
+main.ico
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/plugin/main.ico
+END
+ui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/597/trunk/plugin/ui.cpp
+END
+scriptInvoke.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/452/trunk/plugin/scriptInvoke.h
+END
+Xulplayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/597/trunk/plugin/Xulplayer.cpp
+END
+config.mak
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/486/trunk/plugin/config.mak
+END
+player.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/433/trunk/plugin/player.cpp
+END
+plugin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/597/trunk/plugin/plugin.cpp
+END
+np_entry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/433/trunk/plugin/np_entry.cpp
+END
+device.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/287/trunk/plugin/device.cpp
+END
+nprt.def
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/plugin/nprt.def
+END
+utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/449/trunk/plugin/utils.cpp
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/454/trunk/plugin/config.h
+END
+httpclient.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/438/trunk/plugin/httpclient.c
+END
+mcplugin_vc8.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/plugin/mcplugin_vc8.vcproj
+END
+scriptInvoke.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/474/trunk/plugin/scriptInvoke.cpp
+END
+droptarget.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/plugin/droptarget.h
+END
+ui.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/456/trunk/plugin/ui.h
+END
+httpclient.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/438/trunk/plugin/httpclient.h
+END
+Xulplayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/597/trunk/plugin/Xulplayer.h
+END
+version.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/plugin/version.h
+END
+npn_gate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/433/trunk/plugin/npn_gate.cpp
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/plugin/resource.h
+END
+ui_linux.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/456/trunk/plugin/ui_linux.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/486/trunk/plugin/Makefile
+END
+properties.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/582/trunk/plugin/properties.cpp
+END

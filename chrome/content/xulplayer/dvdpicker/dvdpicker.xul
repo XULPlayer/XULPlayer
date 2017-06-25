@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://xulplayer/skin/default.css" type="text/css"?>
+<?xml-stylesheet href="chrome://xulplayer/skin/tools.css" type="text/css"?>
+
+<!-- Overlay include -->
+<?xul-overlay href="overlay/toolbar.xul"?>
+<?xul-overlay href="overlay/info.xul"?>
+
+<window id="dvdpicker"
+        title="dvd picker"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        height="360" width="480"
+        onload="Init(window.arguments);">
+
+    <script src="../js/common.js" type="application/x-javascript"/>    
+    <script src="picker.js" type="application/x-javascript"/>    
+    <script src="js/info_dvd.js" type="application/x-javascript"/>
+    <script src="js/info_cd.js" type="application/x-javascript"/>
+    <script src="js/info_vcd.js" type="application/x-javascript"/>
+
+    <!-- Broadcaster -->
+    <broadcasterset>
+	<broadcaster id="isDvdMode" hidden="false"/>
+    </broadcasterset>
+
+    <!-- Commandset -->
+    <commandset id="dvdripCommand">
+	<!-- toolbar.xul -->
+	<commandset id="toolbarCommands" />
+	<!-- info.xul -->
+	<commandset id="infoCommands" />
+	<command id="cmdAddtoPlaylist" oncommand="AddtoPlaylist()" />
+    </commandset>
+
+    <!-- UI Start -->
+    <toolbox>
+	<!-- Overlay Toolbar -->
+	<toolbar id="toolbar" />
+    </toolbox>
+    <spacer class="spacer"/>
+    <!-- Overlay Info -->
+    <deck id="info_shower"  flex="1"/>
+    <row align="center" flex="1">
+        <spacer flex="1"/>
+        <button id="btn_start" label="Add to playlist" command="cmdAddtoPlaylist" flex="1"></button>
+        <spacer flex="1"/>
+        <button label="&tools.btn.close;" oncommand="window.close();" flex="1"></button>
+        <spacer flex="1"/>
+    </row>
+</window>

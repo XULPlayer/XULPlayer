@@ -1,0 +1,96 @@
+/* ===== preferences.css =====================================================
+  == Styles used by the XUL prefwindow element.
+  ======================================================================= */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* ::::: dialog ::::: */
+
+prefwindow {
+  padding: 0px;
+  color: #676767;
+}
+
+prefpane {
+  padding-top: 8px;
+  padding-bottom: 10px;
+  -moz-padding-start: 8px;
+  -moz-padding-end: 10px;
+}
+
+prefwindow[type="child"] {
+  padding-top: 8px;
+  padding-bottom: 10px;
+  -moz-padding-start: 8px;
+  -moz-padding-end: 10px;
+}
+
+prefwindow[type="child"] > prefpane {
+  padding: 0px;
+}
+
+.prefWindow-dlgbuttons {
+  padding-bottom: 10px;
+  -moz-padding-start: 8px;
+  -moz-padding-end: 10px;
+}
+
+prefwindow[type="child"] .prefWindow-dlgbuttons {
+  padding: 0px;
+}
+
+radio[pane] {
+	-moz-appearance: none;
+    background-color: none;
+    background-image: none;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    color: #000 !important;
+	margin: 0px 1px 0px 1px;
+	padding: 1px 3px 1px 3px;
+	min-width: 4.5em;
+}
+
+.paneSelector {
+  border-bottom: 2px groove ThreeDFace;
+  margin: 0px;
+  -moz-padding-start: 10px;
+  background-color: -moz-Field;
+  color: -moz-FieldText;
+}
+
+.paneSelector radio {
+	-moz-appearance: none !important;
+	border-right: 1px solid transparent;
+  	border-left: 1px solid transparent;
+	background-color: transparent;
+    background-image: none;
+	padding: 3px 0 3px 0;
+	margin: 0;
+}
+
+.paneButtonIcon {
+  width: 32px;
+  height: 32px;
+}
+
+radio[pane][selected="true"] {
+    background-color: #DDDDDD;
+    background-image: none;
+    border-right: 1px solid #b9b9b9;
+    border-left: 1px solid #b9b9b9;
+    color: #000 !important;
+}
+
+/* Adjust width of Dialogs to accommodate UI elementsfont-size: 11px !important;*/
+#OCSPDialogPane{
+	margin: 5px !important;
+	padding-bottom: 20px;
+}
+
+#FontsDialogPane,
+#ColorsDialogPane  {
+	color: #FFFF40;
+	font-size: 11px !important;
+}
+

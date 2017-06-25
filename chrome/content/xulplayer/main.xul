@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://xulplayer/skin/default.css" type="text/css"?>
+<?xml-stylesheet href="chrome://xulplayer/skin/browser-toolbar.css" type="text/css"?>
+<?xml-stylesheet href="chrome://xulplayer/skin/decktoolbar.css" type="text/css"?>
+<?xml-stylesheet href="chrome://xulplayer/skin/downloader/style.css" type="text/css"?>
+<?xml-stylesheet href="chrome://xulplayer/skin/menus.css" type="text/css"?>
+<?xul-overlay href="overlay/menubar.xul"?>
+<?xul-overlay href="overlay/browser.xul"?>
+<?xul-overlay href="overlay/playlist.xul"?>
+<?xul-overlay href="overlay/options.xul"?>
+<?xul-overlay href="overlay/effects.xul"?>
+<?xul-overlay href="overlay/play_toolbar.xul"?>
+<?xul-overlay href="overlay/lyric.xul"?>
+<!--<?xul-overlay href="overlay/medialib.xul"?>-->
+<!--<?xul-overlay href="overlay/displayBox.xul"?>-->
+<?xul-overlay href="overlay/browser_toolbar.xul"?>
+<?xul-overlay href="overlay/options_tabs.xul"?>
+<?xul-overlay href="overlay/playinfo.xul"?>
+<?xul-overlay href="overlay/covinfo.xul"?>
+<?xul-overlay href="overlay/prefs.xul"?>
+<?xul-overlay href="downloader/manager/dmain.xul"?>
+<?xul-overlay href="tv_utility/menus/menus_overlay.xul"?>
+<!--<?xul-overlay href="overlay/projector.xul"?>-->
+<window id="main" title="&player.title;" onload="init()" onunload="uninit()" onclose="" onresize="onResize()"
+		xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		sizemode="normal" persist="screenX screenY width height" width="1000" height="700" class="mainwindow skin_plate round_all" hidechrome="true">
+    <!-- Include Javascript -->
+    <script src="js/common.js" type="application/x-javascript" />
+    <script src="js/jquery-1.3.2.min.js" type="application/x-javascript" />
+    <script src="js/effects.core.js" type="application/x-javascript" />
+    <script src="js/defines.js" type="application/x-javascript" />
+    <script src="js/player.js" type="application/x-javascript" />
+    <script src="js/dualplay.js" type="application/x-javascript" />
+    <script src="js/lyric.js" type="application/x-javascript" />
+    <script src="js/dragdrop.js" type="application/x-javascript" />
+    <script src="js/skin.js" type="application/x-javascript" />
+    <!--<script src="js/medialib.js" type="application/x-javascript" />-->
+    <script src="js/window.js" type="application/x-javascript" />
+    <script src="js/playlist.js" type="application/x-javascript" />
+    <script src="js/playlistman.js" type="application/x-javascript" />
+    <script src="js/gui.js" type="application/x-javascript" />
+    <script src="js/converter.js" type="application/x-javascript" />
+    <script src="js/domhelper.js" type="application/x-javascript" />
+    <script src="js/xmlwrap.js" type="application/x-javascript" />
+    <script src="js/io.js" type="application/x-javascript" />
+    <script src="js/litebrowser.js" type="application/x-javascript" />
+    <script src="js/keyProcess.js" type="application/x-javascript" />
+    
+    <script src="js/mediaWindowCtrl.js" type="application/x-javascript" />
+    
+    <!-- remote device.js will override local one -->
+    <!--script src="http://www.mcex.org/include/plugin_js/device.js" type="application/x-javascript" /-->
+    <script src="js/device.js" type="application/x-javascript" />
+    <script src="js/convert_options.js" type="application/x-javascript" />
+    <script src="js/decktoolbars.js" type="application/x-javascript" />
+	<script src="tv_utility/menu_mannager.js" type="application/x-javascript" />
+	<script src="tv_utility/tv_menu.js" type="application/x-javascript" />
+	<script type="text/javascript" src="tv_utility/gps_xul/gps.js"></script>
+    <script src="js/interface/interface.js" type="application/x-javascript" />
+    <script src="js/medialib/treebox.js" type="application/x-javascript" />
+    <script src="js/medialib/playlistTreebox.js" type="application/x-javascript" />
+    <script src="js/medialib/navTreebox.js" type="application/x-javascript" />
+    <script src="js/medialib/fileTreebox.js" type="application/x-javascript" />
+    <script src="js/medialib/mediadb.js" type="application/x-javascript" />
+    <script src="js/medialib/mediaman.js" type="application/x-javascript" />
+    <script src="js/medialib/navcatalog.js" type="application/x-javascript" />
+    <script src="js/medialib/treeview.js" type="application/x-javascript" />
+    
+    <script type="application/javascript" src="js/libp2p.js" />
+    <script type="application/javascript" src="downloader/helper.js" />
+    <script type="application/javascript" src="downloader/manager.js" />
+    <script type="application/javascript" src="downloader/manager/queueitem.js" />
+    <script type="application/javascript" src="downloader/manager/tree.js" />
+    <!-- script src="js/projector.js" type="application/x-javascript"/ -->
+    <stringbundleset id="stringBundleSet">
+        <stringbundle id="localStrings" src="chrome://xulplayer/locale/xulplayer.properties" />
+        <stringbundle id="downloaderStrings" src="chrome://xulplayer/locale/downloader.properties" />
+    </stringbundleset>
+    <commandset id="playerCommand">
+        <commandset id="menuCommands" />
+        <!-- nav_toolbar.xul -->
+        <commandset id="toolbarCommands" />
+        <!-- play_toolbar.xul -->
+        <commandset id="playtoolbarCommands" />
+        <command id="cmdEncodeStart" oncommand="encodeStart()" />
+        <command id="cmdEncodeStop" oncommand="encodeStop()" />
+        <command id="cmdEncodePause" oncommand="encodePause()" />
+        <command id="cmdEncodeChooseDir" oncommand="encodeChooseOutputDir()" />
+        <command id="cmdEncodeTransmit" oncommand="deviceTransmit()" />
+        <command id="cmdPreview" oncommand="preview()" />
+        <command id="cmdPreviewDual" oncommand="previewDual()" />
+    </commandset>
+    <popupset>
+        <menupopup id="menuDualPlay1">
+            <menuitem label="&menu.selFile;" oncommand="dualChooseFile(0)" />
+            <menuitem label="&menu.selItem;" oncommand="dualChooseItem(0)" />
+            <menuseparator />
+            <menu label="&menu.selectedFiles;">
+                <menupopup id="menuDualFiles0" />
+            </menu>
+        </menupopup>
+        <menupopup id="menuDualPlay2">
+            <menuitem label="&menu.selFile;" oncommand="dualChooseFile(1)" />
+            <menuitem label="&menu.selItem;" oncommand="dualChooseItem(1)" />
+            <menuseparator />
+            <menu label="&menu.selectedFiles;">
+                <menupopup id="menuDualFiles1" />
+            </menu>
+        </menupopup>
+        <menupopup id="switchView-popup">
+            <menuitem id="fullView" type="radio" persist="checked" label="&player.fullView;" oncommand="setViewMode()" />
+            <menuitem id="deviceView" type="radio" persist="checked" label="&player.deviceView;" oncommand="setViewMode()" />
+            <menuitem id="compactView" type="radio" persist="checked" label="&player.compactView;" selected="true" oncommand="setViewMode()" />
+            <menuitem id="simpleView" type="radio" persist="checked" label="&player.simpleView;" oncommand="setViewMode()" />
+            <!--menuitem id="miniView" type="radio"  disabled="true" persist="checked" label="&player.miniView;" oncommand="setViewMode()"/-->
+        </menupopup>
+        <menupopup id="menuDualSync">
+            <menuitem label="&player.dual.syncPlay1;" oncommand="syncToPlayer1()" />
+            <menuitem label="&player.dual.syncPlay2;" oncommand="syncToPlayer2()" />
+            <menuitem label="&player.dual.syncToPos;" oncommand="syncToPos()" />
+            <menuitem label="&player.dual.syncReplay;" oncommand="syncReplay()" />
+        </menupopup>
+        <menupopup id="menuMediaManager">
+            <!--<menuitem id="menuAddMediaList" label="&listManager.add;" />-->
+        </menupopup>
+        <menupopup id="menuMediaPlayList">
+            <menuitem id="menuMediaListPlay" label="&player.play;" />
+            <menuitem id="menuMediaListPause" label="&player.pause;" />
+            <menuitem id="menuMediaListStop" label="&player.stop;" />
+            <menuseparator />
+            <menuitem id="menuMediaListTranscodeStart" label="&trancode.start;" />
+            <menuitem id="menuMediaListTranscodePause" label="&trancode.pause;" />
+            <menuitem id="menuMediaListTranscodeStop" label="&trancode.stop;" />
+            <menuseparator />
+            <menu label="&mediaList.addTo;">
+                <menupopup id="mediaListAddToPopup">
+                    <menuitem id="menuMediaListHomeVideo" label="&mediaList.homeVideo;" value="1" />
+                    <menuitem id="menuMediaListMovie" label="&mediaList.movie;" value="2" />
+                    <menuitem id="menuMediaListEpisode" label="&mediaList.episode;" value="3" />
+                </menupopup>
+            </menu>
+            <menu label="&mediaList.rate;">
+                <menupopup id="mediaListRatePopup">
+                    <menuitem id="menuMediaListRate5" label="*****" value="5" />
+                    <menuitem id="menuMediaListRate4" label="****" value="4" />
+                    <menuitem id="menuMediaListRate3" label="***" value="3" />
+                    <menuitem id="menuMediaListRate2" label="**" value="2" />
+                    <menuitem id="menuMediaListRate1" label="*" value="1" />
+                </menupopup>
+            </menu>
+            <menuseparator />
+            <menuitem id="menuMediaListSearch" label="&medialib.searchMedia;" />
+            <menuitem id="menuMediaListImport" label="&medialib.importMedia;" />
+            <menuseparator />
+            <menuitem id="menuDiscImport" label="copyDisc" />
+            <menuitem id="menuDiscImportAfterCov" label="copyDiscAfterCov" />
+            <!--show download information test-->
+            <menuitem id="showDownloadInfo" label="&medialib.showDownload;" />
+            <menuseparator />
+            <menuitem id="menuMediaListRemove" label="&playlist.remove;" />
+            <menuitem id="menuMediaListClear" label="&playlist.clear;" />
+        </menupopup>
+    </popupset>
+    <!-- UI Start -->
+    <hbox class="skin_plate round_all" pack="center" flex="1">
+        <resizer id="resizer-left" dir="left" width="1" style="border:0px; cursor: w-resize;" />
+        <vbox class="skin_plate round_all" pack="center" flex="1">
+            <resizer id="resizer-top" dir="top" height="1" style="border:0px; cursor: n-resize;" />
+            <!-- TITLEBAR -->
+            <hbox container="1" id="titlebar" pack="center" class="titlebar skin_plate top_left_round top_right_round">
+                <resizer id="resizer-topleft" class="top_left_round top_right_round" width="15" height="15" dir="topleft" />
+                <!-- / WINDOW TITLE -->
+                <titlebar container="1" align="center" class="top_left_round top_right_round">
+                    <image id="windowIcon" />
+                    <!--<label id="windowTitle" value="XULPlayer"/>-->
+                </titlebar>
+                <spacer width="10" />
+                <menubar id="mainMenuBar" />
+                <titlebar flex="1" align="center" ondblclick="toggleMaximize()">
+                    <spacer flex="1" />
+                </titlebar>
+                <!-- WINDOW BUTTONS -->
+                <hbox align="center" class="top_right_round">
+                    <!--<button id="titlebar-buttons-dualMode" onclick="" /> <spacer width="1/>-->
+                    <image id="titlebar-buttons-view" onclick="$e('optViewMode').hidden = !$e('optViewMode').hidden" />
+                    <label onclick="previousSibling.onclick()">&player.layout;</label>
+                    <!--scale id="viewSlider" min="1" max="4" width="60" pageincrement="1" onchange="slideViewMode(value);" dir="true"/-->
+                    <radiogroup id="optViewMode" orient="horizontal" persist="value hidden" oncommand="setViewMode()">
+                        <radio label="&player.fullView;" value="1" />
+                        <radio label="&player.deviceView;" value="2" />
+                        <radio label="&player.compactView;" value="3" />
+                        <radio label="&player.simpleView;" value="4" />
+                        <radio label="&player.tvView;" value="5" />
+                        <radio id="optMediaCenterMode" label="&player.mediaCenterView;" value="6" />
+						<radio id="diy_soft" label="Gps" value="0" />
+                    </radiogroup>
+                    <spacer width="1" />
+                    <image id="titlebar-buttons-minimize" onclick="mp.setTrayIcon(true)" />
+                    <spacer width="1" />
+                    <image id="titlebar-buttons-maximize" onclick="toggleMaximize()" />
+                    <spacer width="1" />
+                    <image id="titlebar-buttons-close" onclick="closeWindow()" />
+                    <spacer width="1" />
+                    <spacer width="2" />
+                </hbox>
+                <!-- / WINDOW BUTTONS -->
+            </hbox>
+            <!-- / TITLEBAR -->
+            <hbox flex="1">
+                <vbox flex="1">
+                    <!-- Overlay display box-->
+					<vbox id="mainDisplayArea" flex="1">
+						<deck id="videoBox" flex="1" selectedIndex="1" ondblclick="if (curViewMode!=VIEW_TV) toggleFullScreen()">
+							<html:embed id="video" type="application/x-xulplayer-scriptable-plugin" flex="1" />
+							<iframe id="webBrowser" flex="1" src="html/videobox.html" />
+							<vbox id="lyric"></vbox>
+							<html:embed id="swfVideo" type="application/x-shockwave-flash" allowScriptAccess="always" swliveconnect="true" bgcolor="#000001" loop="false" flex="1" />
+							<vbox id="net_tv_player">
+								<iframe id="net_tv_frame" src="" flex="1" />
+								<!--html:embed id="tvuplayer"  type="application/x-tvuplayer-plugin" flex="1" hidden="true" /-->
+							</vbox>
+							<iframe id="downloadNav" flex="1" src="" />
+							<iframe id="gps_main" name="gps_frame" src=""></iframe>
+						</deck>
+						<hbox>
+							<deck id="tv_tool_bars" hidden="true" flex="1">
+								<box id="tv_tool_play_info" />
+								<box id="tv_tool_converter_info" />
+								<box id="tv_tool_download_info">
+									<popupset>
+										<popup id="popup" />
+									</popupset>
+									<stack flex="1" id="mainstack">
+										<toolbox>
+											<toolbar id="tools" />
+										</toolbox>
+										<vbox flex="1">
+											<tree id="downloads" />
+										</vbox>
+									</stack>
+								</box>
+							</deck>
+						</hbox>
+					</vbox>
+                    <radiogroup id="dualVideoOptions" class="skin_plate" orient="horizontal" oncommand="switchPlayer(selectedIndex)">
+                        <radio value="0" label="&player.player; #1" onclick="switchPlayer(0)" />
+                        <button label="&player.pickFile;" menu="menuDualPlay1" />
+                        <spacer flex="1" />
+                        <hbox align="center">
+                            <label>&player.crossFading;</label>
+                            <scale id="crossfade" min="0" max="100" value="50" onchange="setCrossVolume()" />
+                            <checkbox label="&player.fixedOffset;" disabled="true" />
+                            <textbox type="number" width="50" increment="1000" value="0" disabled="true" />
+                            <label>ms</label>
+                            <button label="&player.dual.synchronise;" menu="menuDualSync" />
+                        </hbox>
+                        <spacer flex="1" />
+                        <button label="&player.pickFile;" menu="menuDualPlay2" />
+                        <radio value="1" label="&player.player; #2" onclick="switchPlayer(1)" />
+                    </radiogroup>
+                    <splitter id="panelSplit" />
+                    <tabbox id="mainTab" persist="selectedIndex">
+                        <tabs>
+                            <tab id="tabBtnPlayList" label="&player.playlist;" />
+                            <tab label="&player.mediainfo;" onclick="showMediaInfo()" />
+                            <tab label="&player.properties;" />
+                            <tab id="tabBtnOptions" label="&player.options;" />
+                            <tab label="&player.effects;" />
+                            <tab label="&menu.convertOptions;" hidden="true" />
+                            <!--<tab id="tabButtonMediaLib" label="&menu.mediaLib;"/>-->
+                        </tabs>
+                        <tabpanels class="skin_plate">
+                            <tabpanel>
+                                <hbox id="tabPlaylist" class="skin_plate" flex="1" />
+                            </tabpanel>
+                            <tabpanel>
+                                <textbox id="mediaInfoText" multiline="true" flex="1" readonly="true" />
+                            </tabpanel>
+                            <tabpanel>
+                                <vbox id="tabInfo" flex="1" class="skin_plate">
+                                    <label>No file loaded</label>
+                                </vbox>
+                            </tabpanel>
+                            <tabpanel>
+                                <vbox id="tabOptions" />
+                            </tabpanel>
+                            <tabpanel>
+                                <hbox id="tabEffects" />
+                            </tabpanel>
+                            <tabpanel>
+                                <tabbox id="tabCovOptions" hidden="true" />
+                            </tabpanel>
+                        </tabpanels>
+                    </tabbox>
+                </vbox>
+                <splitter id="mcexSplitter" hidden="true" />
+                <vbox hidden="true" id="mcexBox" flex="1">
+                    <!-- Overlay browser Toolbar -->
+                    <hbox>
+                        <toolbar flex="1">
+                            <toolbarbutton id="encode_start" tooltiptext="&menu.transcode.start;" command="cmdEncodeStart" />
+                            <toolbarbutton id="encode_pause" tooltiptext="&menu.transcode.pause;" command="cmdEncodePause" />
+                            <toolbarbutton id="encode_output_dir" tooltiptext="&menu.transcode.setOutputFolder;" command="cmdEncodeChooseDir" />
+                            <toolbarbutton id="encode_transmit" tooltiptext="&menu.transcode.transmit;" command="cmdEncodeTransmit" />
+                            <toolbarbutton id="encode_preview" tooltiptext="&menu.transcode.preview;" disabled="true" command="cmdPreview" />
+                            <toolbarbutton id="encode_preview_dual" tooltiptext="&menu.transcode.previewDual;" disabled="true" command="cmdPreviewDual" />
+                        </toolbar>
+                        <vbox>
+                            <spacer flex="1" />
+                            <toolbar id="browser_toolbar" flex="0" />
+                            <spacer flex="1" />
+                        </vbox>
+                    </hbox>
+                    <hbox id="encodeProgressBar" hidden="true" align="center">
+                        <vbox>
+                            <spacer flex="1" />
+                            <label id="lblProgress" style="width:80px" />
+                            <spacer flex="1" />
+                        </vbox>
+                        <progressmeter id="encode_progress" mode="determined" value="50" hidden="true" flex="1" />
+                        <vbox>
+                            <spacer flex="1" />
+                            <label id="lblRemainTime" />
+                            <spacer flex="1" />
+                        </vbox>
+                    </hbox>
+                    <hbox flex="1">
+                        <browser id="mcex" type="content-primary" flex="1" src="html/loading.html" />
+                        <splitter id="prefsSpliter" state="open" collapse="after" resizebefore="closest" resizeafter="closest" persist="state">
+                            <grippy />
+                        </splitter>
+                        <vbox id="prefsSidebar" />
+                    </hbox>
+                </vbox>
+            </hbox>
+            <vbox id="bottomBar" class="skin_plate bottom_left_round bottom_right_round">
+                <!-- player controler -->
+                <scale flex="1" id="timebar" min="0" max="60000" pageincrement="2000" class="skin_plate" onmousedown="holdOnProgress=true;" onmouseup="holdOnProgress=false;seekToClickPos(event)" disabled="true" />
+                <vbox id="play-toolbar" class="skin_plate" />
+            </vbox>
+            <resizer id="resizer-bottom" dir="bottom" height="1" style="border:0px; cursor: s-resize;" />
+        </vbox>
+        <resizer id="resizer-right" dir="right" width="1" style="border:0px; cursor: e-resize;" />
+    </hbox>
+    <panel id="vp-panel"></panel>
+</window>

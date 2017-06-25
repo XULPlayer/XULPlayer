@@ -1,0 +1,260 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Extensions</title>
+</head>
+
+<body>
+<style>
+.tabwrapper{ margin:0; padding:0;width:588px}
+.tabwrapper .btn{ background:url(images/icon_bg.jpg) repeat-x scroll; height:93px; cursor: pointer}
+.tabwrapper .btn ul{ background:url(images/icon_r.jpg) right no-repeat; height:93px; list-style:none; padding:0; margin:0;}
+.tabwrapper .btn ul li{float:left; margin:0 1px 0 0; padding:0; }
+.tabwrapper .btn ul li a{ display:block; list-style:none; width:97px; height:93px;}
+.tabwrapper .btn ul a.icon1{ background:url(images/icon1.png) no-repeat 0 0px; height:93px;overflow:hidden;}
+.tabwrapper .btn ul a:hover.icon1{ background:url(images/icon1.png) no-repeat 0 -93px; }
+.tabwrapper .btn ul a.icon2{ background:url(images/icon2.png) no-repeat 0 0px; height:93px;overflow:hidden;}
+.tabwrapper .btn ul a:hover.icon2{ background:url(images/icon2.png) no-repeat 0 -93px; }
+.tabwrapper .btn ul a.icon3{ background:url(images/icon3.png) no-repeat 0 0px; height:93px;overflow:hidden;}
+.tabwrapper .btn ul a:hover.icon3{ background:url(images/icon3.png) no-repeat 0 -93px; }
+.tabwrapper .btn ul a.icon4{ background:url(images/icon4.png) no-repeat 0 0px; height:93px;overflow:hidden;}
+.tabwrapper .btn ul a:hover.icon4{ background:url(images/icon4.png) no-repeat 0 -93px; }
+.tabwrapper .btn ul a.icon5{ background:url(images/icon5.png) no-repeat 0 0px; height:93px;overflow:hidden;}
+.tabwrapper .btn ul a:hover.icon5{ background:url(images/icon5.png) no-repeat 0 -93px; }
+.tabwrapper .btn ul a.icon6{ background:url(images/icon6.png) no-repeat 0 0px; height:93px;overflow:hidden;}
+.tabwrapper .btn ul a:hover.icon6{ background:url(images/icon6.png) no-repeat 0 -93px; }
+.tabwrapper .content{ background:#ececec;}
+.tabwrapper .con2{ background:url(images/4_bg.jpg) left repeat-y;}
+.tabwrapper .con3{ background:url(images/9_bg.jpg) right repeat-y; margin-left:10px; font-size:12px; font-family:Verdana; height:480px}
+.tabwrapper .con3 li {list-style:none; line-height:150%; }
+.tabwrapper .bottom{ height:13px; background:url(images/2_bg.jpg) bottom repeat-x;}
+.tabwrapper .bottom .b2{ height:13px; background:url(images/1_bg.jpg) left bottom no-repeat ;}
+.tabwrapper .bottom .b2 .b3{ height:13px;background:url(images/3_bg.jpg) right bottom no-repeat;}
+.tabwrapper img{ border:none; }
+.tabwrapper .devname { font-size:9px; }
+.tabwrapper .morelink { font-size:12px; font-weight:bold }
+.tabwrapper .tabtable { width:566px; height:480px }
+</style>
+<script language="javascript">
+function article(id, catid, itemid)
+{
+	window.location.href = "http://www.mcex.org/index.php?option=com_content&view=article&id=" + id + "&catid=" + catid + "&Itemid=" + itemid;
+}
+function category(id, itemid)
+{
+	window.location.href = "http://www.mcex.org/index.php?option=com_content&view=category&id=" + id + "&Itemid=" + itemid;
+}
+function section(id, itemid)
+{
+	window.location.href = "http://www.mcex.org/index.php?option=com_content&view=section&id=" +id + "&Itemid=" + itemid;
+}
+</script>
+<div class="tabwrapper">
+<div class="btn">
+  <ul>
+    <li><a class="icon1" onClick="setView(1)"> </a></li>
+    <li><a class="icon2" onClick="setView(2)"> </a></li>
+    <li><a class="icon3" onClick="setView(3)"> </a></li>
+    <li><a class="icon4" onClick="setView(4)"> </a></li>
+    <li><a class="icon5" onClick="setView(5)"> </a></li>
+    <li><a class="icon6" onClick="setView(6)"> </a></li>
+  </ul>
+</div>
+<div class="content">
+  <div class="con2">
+    <div class="con3">
+      <div id="d1">
+        <table class="tabtable">
+          <tbody>
+            <tr>
+              <td valign="top"><ul>
+                  <li><a href="javascript:category(34,34)">
+                    <h3>Archos</h3>
+                    </a>
+                    <p><a href="javascript:article(44,34,53)"><img src="/images/stories/logo/av404.png" alt="Archos AV404" title="Archos AV404" /></a>&nbsp;&nbsp;<a href="javascript:article(45,34,53)" ><img src="/images/stories/logo/av500.png" alt="Archos AV500" title="Archos AV500" /></a>&nbsp;&nbsp;<a href="javascript:article(46,34,53)"><img src="/images/stories/logo/av700.png" alt="Archos AV700" title="Archos AV700" /></a></p>
+                  </li>
+                </ul>
+                <ul>
+                  <li><a href="javascript:category(37,34)">
+                    <h3>Meizu</h3>
+                    </a>
+                    <p><a href="javascript:article(56,37,55)"><img src="/images/stories/logo/miniplayer.png" alt="Meizu Miniplayer" title="Meizu Miniplayer" /></a></p>
+                  </li>
+                </ul>
+                <ul>
+                  <li><a href="javascript:category(25,34)">
+                    <h3>Apple</h3>
+                    </a>
+                    <p><a href="javascript:article(68,25,54)"><img src="/images/stories/logo/ipod_touch.png" alt="iPod Touch" title="iPod Touch" /></a>&nbsp;&nbsp;<a href="javascript:article(68,25,54)"><img src="/images/stories/logo/ipod_nano.png" alt="iPod Nano" title="iPod Nano" /></a>&nbsp;&nbsp;<a href="javascript:article(68,25,54)"><img src="/images/stories/logo/ipod_classic.png" alt="iPod Classic" title="iPod Classic" /></a></p>
+                  </li>
+                </ul>
+                <ul>
+                  <li><a href="javascript:category(47,34)">
+                    <h3>Creative</h3>
+                    </a>
+                    <p><a href="javascript:article(59,47,34)"><img src="/images/stories/logo/zen.png" alt="Creative Zen Vision" title="Creative Zen Vision" /></a></p>
+                  </li>
+                </ul></td>
+              <td valign="top" width="140" align="right">
+                <div class="morelink"><a href="javascript:section(4)"><img src="/images/btn_more.png" border="0" title="More personal media player models"/></a></div></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="d2" style="display:none">
+        <table class="tabtable">
+          <tbody>
+            <tr>
+              <td valign="top">
+<table>
+<tr><td colspan="2"><a href="javascript:category(36,57)"><h3>Nokia</h3></a></td></tr>
+<tr><td align="center" valign="bottom" width="100">
+                    <a href="javascript:article(70,36,57)"><img src="/images/stories/logo/NokiaE71.png" alt="Nokia E71" title="Nokia E71" /><br/>
+                    <div class="devname">Nokia E71</div>
+                    </a>
+</td><td align="center" valign="bottom" width="100">
+                    <a href="javascript:article(77,36,57)"><img src="/images/stories/logo/nokia-6122.png" alt="Nokia 6122" title="Nokia 6122" /><br/>
+                    <div class="devname">Nokia 6122</div>
+                    </a>
+</td><td></td></tr>
+<tr><td colspan="2"><a href="javascript:category(5,2)"><h3>Samsung</h3></a></td></tr>
+<tr><td align="center" valign="bottom">
+                    <a href="javascript:article(57,44,2)"><img src="/images/stories/logo/e900.png" alt="Samsung E900/E908" title="Samsung E900/E908" /><br/>
+                    <div class="devname">E900/E908</div>
+                    </a>
+</td><td></td><td></td></tr>
+</table>
+</td>
+              <td valign="top" width="180" align="right"><div class="morelink"><a href="javascript:section(5,2)"><img src="/images/btn_more.png" border="0" title="More mobile phone models"/></a></div>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="d3" style="display:none">
+<table class="tabtable">
+          <tbody>
+            <tr>
+              <td valign="top">        <ul>
+          <li><a href="javascript:category(50,68)">
+            <h3>Sony</h3>
+            </a>
+            <p> 
+            <a href="javascript:article(63,50,68)"><img src="/images/stories/logo/psp.png" alt="Sony PSP" title="Sony PSP" />
+            <div class="devname">Sony PSP</div>
+            </a>
+            </p>
+          </li>
+        </ul>
+</td>
+              <td valign="top" width="120" align="right">
+<div class="morelink"><a href="javascript:section(6,37)"><img src="/images/btn_more.png" border="0" title="More game console models"/></a></div></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="d4" style="display:none">
+<table class="tabtable">
+          <tbody>
+            <tr>
+              <td valign="top">
+        <ul>
+          <li><a href="javascript:article(69,46,62)"><img src="/images/stories/logo/appletv.png" alt="Apple TV" title="Apple TV" /><br/>
+            <div class="devname">Apple TV</div>
+            </a></li>
+        </ul>
+</td>
+              <td valign="top" width="140" align="right">
+              <div class="morelink"><a href="javascript:section(10,62)">
+<img src="/images/btn_more.png" border="0" title="More device models"/></a></div></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="d5" style="display:none">
+<table class="tabtable">
+          <tbody>
+            <tr>
+              <td valign="top">
+        <ul>
+          <li><a href="javascript:category(63,68)">
+            <h3>MIO</h3>
+            </a>
+            <p> 
+            <a href="javascript:article(72,54,67)"><img src="/images/stories/logo/mio_c520.png" alt="MIO C320/C520/C720" title="MIO C320/C520/C720"/><br/>
+            <div class="devname">MIO C320/C520/C720</div>
+            </a>
+            </p>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="javascript:category(56,67)">
+            <h3>GiPiS</h3>
+            </a>
+            <p> 
+            <a href="javascript:article(78,56,67)"><img src="/images/stories/logo/gipis1.png"/><br/>
+            <div class="devname">GiPiS GI-430X</div>
+            </a>
+            </p>
+          </li>
+        </ul>
+</td>
+              <td valign="top" width="140" align="right">
+<a href="javascript:section(11,67)"><img src="/images/btn_more.png" border="0" title="More GPS and handheld device models"/></a></div>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="d6" style="display:none">
+<table class="tabtable">
+          <tbody>
+            <tr>
+              <td valign="top">
+        <ul>
+          <li> <a href="javascript:category(43,59)">x264</a><br />
+          </li>
+        </ul>
+        <ul>
+          <li> <a href="javascript:category(49,59)"> Flash Video</a><br />
+          </li>
+        </ul>
+        <ul>
+          <li> <a href="javascript:category(52,59)"> MPEG</a><br />
+          </li>
+        </ul>
+        <ul>
+          <li> <a href="javascript:category(53,59)"> AAC</a></li>
+        </ul>
+</td>
+              <td valign="top" align="right" width="200">
+<p class="morelink"><a href="javascript:section(9,59)">More codecs specific extensions</p>
+<p class="morelink"><a href="javascript:section(8,60)">More miscellaneous extensions</p>
+</td>
+            </tr>
+          </tbody>
+        </table>      </div>
+      <script language="JavaScript" type="text/javascript">
+setView(1);
+function setView(id)
+{
+	for (var i = 1; i <= 6; i++) {
+		document.getElementById("d" + i).style.display = (i == id) ? "block" : "none";
+	}
+}
+</script>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="b2">
+      <div class="b3"></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

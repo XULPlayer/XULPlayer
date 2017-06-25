@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/165/trunk/installer
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/installer/license.txt
+END
+installer.nsi
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/165/trunk/installer/installer.nsi
+END
+installer.ico
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/76/trunk/installer/installer.ico
+END

@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/615/trunk/pluginLite
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/581/trunk/pluginLite/config.h
+END
+droptarget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/581/trunk/pluginLite/droptarget.cpp
+END
+main.ico
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/581/trunk/pluginLite/main.ico
+END
+httpclient.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/595/trunk/pluginLite/httpclient.c
+END
+scriptInvoke.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/581/trunk/pluginLite/scriptInvoke.cpp
+END
+droptarget.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/581/trunk/pluginLite/droptarget.h
+END
+httpclient.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/584/trunk/pluginLite/httpclient.h
+END
+scriptInvoke.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/581/trunk/pluginLite/scriptInvoke.h
+END
+version.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/581/trunk/pluginLite/version.h
+END
+npn_gate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/581/trunk/pluginLite/npn_gate.cpp
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/581/trunk/pluginLite/resource.h
+END
+properties.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/581/trunk/pluginLite/properties.cpp
+END
+npp_gate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/581/trunk/pluginLite/npp_gate.cpp
+END
+pluginLite.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/615/trunk/pluginLite/pluginLite.vcproj
+END
+plugin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/598/trunk/pluginLite/plugin.cpp
+END
+np_entry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/581/trunk/pluginLite/np_entry.cpp
+END
+device.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/581/trunk/pluginLite/device.cpp
+END
+nprt.def
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/590/trunk/pluginLite/nprt.def
+END
+sysutils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/609/trunk/pluginLite/sysutils.cpp
+END
+utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/597/trunk/pluginLite/utils.cpp
+END
+methods.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/615/trunk/pluginLite/methods.cpp
+END
+plugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/581/trunk/pluginLite/plugin.h
+END
+device.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/581/trunk/pluginLite/device.h
+END
+nprt.rc
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/594/trunk/pluginLite/nprt.rc
+END

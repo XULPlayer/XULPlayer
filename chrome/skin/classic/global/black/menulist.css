@@ -1,0 +1,168 @@
+/* ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public License Version
+ * 1.1 (the "License"); you may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ * The Original Code is Mozilla Communicator client code, released
+ * March 31, 1998.
+ *
+ * The Initial Developer of the Original Code is
+ * Netscape Communications Corporation.
+ * Portions created by the Initial Developer are Copyright (C) 1998-1999
+ * the Initial Developer. All Rights Reserved.
+ *
+ * Contributor(s):
+ *   Joe Hewitt (hewitt@netscape.com)
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ *
+ * ***** END LICENSE BLOCK ***** */
+
+/* ===== menulist.css ===================================================
+  == Styles used by the XUL menulist element.
+  ======================================================================= */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+@namespace html url("http://www.w3.org/1999/xhtml");
+
+/* :::::::::: menulist :::::::::: */
+
+menulist {
+	-moz-appearance: none;
+	margin: 1px 0px 0px 0px !important;
+	padding-left: 8px !important;
+	height: 24px;
+	min-width: 40px;
+	background: url('chrome://global/skin/menu/menulist-startcap.png') no-repeat center left !important;
+	background-color: transparent;
+	font-family: "Lucida Grande", tahoma, sans-serif, Arial;
+	color: #000000;
+}
+
+.menulist-label-box,
+.autocomplete-textbox-container,
+.menulist-editable-box {
+	-moz-box-align: center;
+	-moz-box-pack: center;
+	background: transparent url('chrome://global/skin/menu/menulist-body.png') repeat-x center left !important;
+}
+
+.menulist-label-box,
+menulist[open="true"]:focus > .menulist-label-box {
+  border: 0px solid transparent;
+  background-color: transparent;
+  color: #000000;
+  -moz-box-align: center;
+}
+
+.menulist-label {
+  margin: 3px 4px 4px 0px !important;
+  min-width: 10px;
+}
+
+/* ..... dropmarker ..... */
+
+.menulist-dropmarker {
+  -moz-appearance: none;
+  min-width: 22px;
+  max-width: 22px;
+  background: url('chrome://global/skin/menu/menulist-dropmarker.png') no-repeat center left !important;
+  background-color: transparent;
+  list-style-image: none !important; 
+}
+
+menulist:hover:active > .menulist-dropmarker {
+  background: url('chrome://global/skin/menu/menulist-dropmarker-hov.png') no-repeat center left !important;
+}
+menulist[disabled="true"] > .menulist-dropmarker,
+menulist[disabled="true"]:hover:active > .menulist-dropmarker {
+  background: url('chrome://global/skin/menu/menulist-dropmarker-dis.png') no-repeat center left !important;
+}
+
+/* ..... focused state ..... */
+
+menulist:focus > .menulist-label-box {
+  border: 0px solid transparent;
+  background-color: transparent;
+  color: #000000;
+}
+
+/* ..... disabled state ..... */
+
+menulist[disabled="true"] {
+  -moz-opacity: .5;
+  color: #000000;
+}
+
+/* ::::: editable menulists ::::: */
+.menulist-editable-box {
+  background-image: none !important;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  -moz-padding-start: 2px;
+  -moz-padding-end: 0px;
+}
+
+html|*.menulist-editable-input {
+	margin: 0px !important;
+	border: none !important;
+	padding: 0px !important;
+  /*background: inherit;*/
+	background-color: transparent !important;
+	font: inherit;
+	color: #000000;
+}
+
+/* ::::: compact menulists ::::: */
+
+.menulist-compact {
+  -moz-box-align: center;
+  -moz-box-pack: center;
+  margin: 0;
+  border: 1px solid #a3a3a3;
+  -moz-border-top-colors: ThreeDLightShadow ThreeDHighlight;
+  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-left-colors: ThreeDLightShadow ThreeDHighlight;
+  background-color: transparent;
+  color: #000000;
+}
+
+.menulist-compact > .menulist-label {
+  margin: 0 3px !important;
+  text-align: right;
+} 
+
+.menulist-compact > .menulist-dropmarker {
+  -moz-margin-start: 2px;
+  border: none;
+  padding: 0 !important;
+  background: transparent;
+}
+
+.menulist-compact[open="true"] {
+  -moz-border-top-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-left-colors: ThreeDDarkShadow ThreeDShadow;
+  background-color: ThreeDShadow;
+  color: #000000;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+<window xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        onload="setTimeout(UpdateProgress, 3000)"
+    >
+    <script language="javascript">
+    var scrolling = false;
+    
+    function UpdateProgress()
+    {
+        if (parent.getPlayerPercentage) {
+            if (!scrolling) {
+                var progress = parent.getPlayerPercentage();
+                document.getElementById("playpos").setAttribute("curpos", progress);
+            }
+            setTimeout(UpdateProgress, 1000);
+        }
+    }
+    function SeekPos(percentage)
+    {
+        if (parent.playerSeek) {
+            parent.playerSeek(percentage, 1);
+        }
+    }
+    </script>
+    <scrollbar id="playpos" orient="horizontal" width="100%" maxpos="100" increment="1" pageincrement="1" onmousedown="scrolling=true" onmouseup="scrolling=false;SeekPos(getAttribute('curpos'))"/>
+    
+</window>

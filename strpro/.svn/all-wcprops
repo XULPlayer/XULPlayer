@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/614/trunk/strpro
+END
+xmlaccessorTiny.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/603/trunk/strpro/xmlaccessorTiny.cpp
+END
+xmlaccessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/607/trunk/strpro/xmlaccessor.h
+END
+StrProInc.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/576/trunk/strpro/StrProInc.h
+END
+StrPro.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/strpro/StrPro.cpp
+END
+charset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/614/trunk/strpro/charset.cpp
+END
+xmlaccessorTiny.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/607/trunk/strpro/xmlaccessorTiny.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/575/trunk/strpro/Makefile
+END
+charset.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/601/trunk/strpro/charset.h
+END
+StrPro.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/612/trunk/strpro/StrPro.vcxproj
+END
+xmlaccessor2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/608/trunk/strpro/xmlaccessor2.cpp
+END
+StrHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/613/trunk/strpro/StrHelper.cpp
+END
+xmlaccessor2.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/607/trunk/strpro/xmlaccessor2.h
+END
+StrPro.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/604/trunk/strpro/StrPro.vcproj
+END
+StrHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/596/trunk/strpro/StrHelper.h
+END
+StrProMacro.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/strpro/StrProMacro.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/strpro/dllmain.cpp
+END
+StrPro_static.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/433/trunk/strpro/StrPro_static.vcproj
+END
+_iconv.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/453/trunk/strpro/_iconv.h
+END
+xmlaccessor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/514/trunk/strpro/xmlaccessor.cpp
+END

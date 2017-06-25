@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://dvdrip/locale/dvdrip.dtd">
+
+<!--
+================================================================================
+/**
+* nav ToolBar
+*/
+================================================================================
+-->
+
+<overlay id="info_overlay"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<commandset id="infoCommands">
+	<command id="cmdUpdateDvdifo" onclick="updateDvdifo()"/>
+</commandset>
+
+<deck id="info_shower" selectedIndex="0" flex="1">
+<vbox flex="1">
+    <hbox flex="1" >
+        <!--tracks list -->
+        <listbox flex="1" id="track-list" command="cmdUpdateDvdifo" height="220">
+            <listhead>
+                <listheader label="track"/>
+            </listhead>
+            <listcols>
+                <listcol flex="1"/>
+            </listcols>
+        </listbox>
+        <!-- chapter list -->
+        <listbox flex="1" id="chapter-list" observes="isDvdMode" height="190" seltype="multiple">
+            <listhead>
+                <listheader label="chapter"/>
+            </listhead>
+            <listcols>
+                <listcol flex="1"/>
+            </listcols>
+        </listbox>
+    </hbox>
+    <spacer height="5"/>
+    <hbox>
+        <!-- Audio channel list -->
+        <listbox flex="1" id="audio-list" observes="isDvdMode" height="100">
+            <listhead>
+                <listheader label="audio"/>
+            </listhead>
+            <listcols>
+                <listcol flex="1"/>
+            </listcols>
+        </listbox>
+        <!-- subtitle list -->
+        <listbox flex="1" id="subtitle-list" observes="isDvdMode" height="90">
+            <listhead>
+                <listheader label="subtitle"/>
+            </listhead>
+            <listcols>
+                <listcol flex="1"/>
+            </listcols>
+        </listbox>
+    </hbox>
+</vbox>
+</deck>
+</overlay>

@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/2/trunk/sysinfo
+END
+SysInfo.rc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/sysinfo/SysInfo.rc
+END
+CpuModelNumber.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/sysinfo/CpuModelNumber.cpp
+END
+DmiInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/sysinfo/DmiInfo.cpp
+END
+CpuInfoID.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/sysinfo/CpuInfoID.h
+END
+msr9x.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/sysinfo/msr9x.h
+END
+PciInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/sysinfo/PciInfo.cpp
+END
+Instdrv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/sysinfo/Instdrv.cpp
+END
+Driverload.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/sysinfo/Driverload.c
+END
+cpuid.obj
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/sysinfo/cpuid.obj
+END
+InstDrv.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/sysinfo/InstDrv.h
+END
+Port32.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/sysinfo/Port32.h
+END
+SysInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/sysinfo/SysInfo.h
+END
+Driverload.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/sysinfo/Driverload.h
+END
+Pcidll.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/sysinfo/Pcidll.c
+END
+CpuInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/sysinfo/CpuInfo.h
+END
+msrnt.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/sysinfo/msrnt.h
+END
+ISysInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/sysinfo/ISysInfo.h
+END
+Pciioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/sysinfo/Pciioctl.h
+END
+SysInfo.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/sysinfo/SysInfo.vcproj
+END
+ItemID.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/sysinfo/ItemID.h
+END
+msr9x.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/sysinfo/msr9x.cpp
+END
+Iofunc.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/sysinfo/Iofunc.c
+END
+Pcifunc.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/sysinfo/Pcifunc.c
+END
+Pcidebug.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/sysinfo/Pcidebug.h
+END
+getdxver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/sysinfo/getdxver.cpp
+END
+SysInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/sysinfo/SysInfo.cpp
+END
+Memfunc.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/sysinfo/Memfunc.c
+END
+DmiInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/sysinfo/DmiInfo.h
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/sysinfo/resource.h
+END
+Interrupt.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/sysinfo/Interrupt.c
+END
+Pcifunc.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/sysinfo/Pcifunc.h
+END
+PciInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/sysinfo/PciInfo.h
+END
+Pcidef.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/sysinfo/Pcidef.h
+END
+cpuid.asm
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/sysinfo/cpuid.asm
+END
+MultiplierTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/sysinfo/MultiplierTable.h
+END
+CpuInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/sysinfo/CpuInfo.cpp
+END
+msrnt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/sysinfo/msrnt.cpp
+END
+DxDiag.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/sysinfo/DxDiag.h
+END

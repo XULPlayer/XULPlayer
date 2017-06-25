@@ -1,0 +1,22 @@
+/* Skin: Nightly by project15.nl */
+
+#about{
+  /*-moz-background-clip: padding;*/
+}
+#mainPanel{	
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  min-width: 0px;
+  min-height: 0px;
+  border-width: 0px;
+  font-size: 12px;
+  background:none;
+  font-family:Tahoma;
+  color:white;
+}
+#playerName {
+color:#ffffff;
+font-size:48px;
+font-family:Impact;
+}

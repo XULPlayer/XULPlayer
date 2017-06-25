@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+<overlay id="cov_info_overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <box id="tv_tool_converter_info">
+        <groupboxs flex="1">
+            <groupbox>          
+                <rows style="width:200px;overflow:hidden;">
+                    <row align="center">
+                        <spacer flex="1"/>
+                        <image src="chrome://xulplayer/skin/decktool/run.gif"/>
+                        <spacer flex="1"/>
+                    </row>
+                    <row align="center">
+                        <label class="tv_tool_font" flex="1">&tvtool.cov.status;:</label>
+                        <label class="tv_tool_font" flex="1" id="tv_cov_status"></label> 
+                    </row>
+                    <row align="center">                        
+                        <label class="tv_tool_font">&tvtool.cov.remaintime;:</label>
+                        <label class="tv_tool_font" id="tv_cov_time" ></label>
+                    </row>                
+                </rows>           
+            </groupbox>
+            <groupbox flex="1">
+                <rows>
+                    <row align="center">
+                        <spacer flex="1"/>
+                        <label class="tv_tool_font" id="tv_cov_title" value="Title"></label>
+                        <spacer flex="1"/>
+                    </row>
+                    <row align="center">
+                        <progressmeter id="tv_cov_progress" mode="determined" value="0" flex="1"/>
+                    </row>
+                    <row align="center">
+                        <spacer flex="1"/>
+                        <label id="tv_cov_percent" class="tv_tool_font" value=""></label>
+                        <spacer flex="1"/>
+                    </row>
+                </rows>
+            </groupbox>
+        </groupboxs>
+    </box>
+</overlay>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://xulplayer/skin/infobox.css" type="text/css"?>
+<?xml-stylesheet href="chrome://xulplayer/skin/default.css" type="text/css"?>
+
+<window id="info_box"
+        title="media"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        height="240" width="480"
+        onload="winInit(window.arguments);" onclose="onUserClose();"
+        >
+    <script src="js/htmhelper.js" type="application/x-javascript"/>
+    <script src="js/information_box.js" type="application/x-javascript"/>
+    <vbox id="mainPanel" class="skin_plate round_all" pack="center" flex="1">
+        <hbox container="1" id="titlebar" pack="center" class="titlebar skin_plate top_left_round top_right_round">
+            <!-- / WINDOW TITLE -->
+            <titlebar container="1" align="center" class="top_left_round top_right_round" flex="1">
+                <image id="windowIcon" />
+                <label id="title_desc"  value="title" />
+            </titlebar>
+            <titlebar flex="1" align="center">
+                <spacer flex="1" />
+            </titlebar>
+        </hbox>
+        <spacer flex="2" id="top_spacer"/>
+        <spacer flex="1" id="mid_spacer"/>    
+        <spacer flex="1" id="bottom_spacer"/>
+        <hbox flex="1" id="button_groups">
+            <spacer flex="6" />
+            <vbox flex="1" align="center" id="bottom_button">
+                <spacer flex="4"/>
+                <button label="&window.box.close;" oncommand="onUserClose();window.close();" flex="1" class="ib_button" id="btn_close"/>
+                <spacer flex="4"/>
+            </vbox>
+            <spacer flex="6" />
+        </hbox>
+    </vbox>
+</window>

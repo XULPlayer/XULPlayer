@@ -1,0 +1,97 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+
+<overlay id="effects_overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<hbox id="tabEffects" class="effects">
+<groupbox id="colorAdjust" flex="1">
+    <caption><label><checkbox id="optEnableColor" label="&effects.colorAdjust;" persist="checked" oncommand="applyPlayerOptions()"/></label></caption>
+    <grid flex="1">
+    <columns>
+        <column/>
+        <column/>
+    </columns>
+    <rows>
+        <row align="center">
+        <label>&effects.brightness;:</label>
+        <hbox align="center">
+            <textbox type="number" id="optBrightness" min="-1" max="1" decimalplaces="2" increment="0.01" value="0" size="2" onchange="nextSibling.value=value*100"/>
+            <scale min="-100" max="100" value="0" onchange="mp.setBright(value);previousSibling.value=value/100;"/>
+        </hbox>
+        </row>
+        <row align="center">
+        <label>&effects.contrast;:</label>
+        <hbox>
+            <textbox type="number" id="optContrast" min="-2" max="2" decimalplaces="2" increment="0.01" value="1" size="2" onchange="nextSibling.value=value*50"/>
+            <scale min="-100" max="100" value="0" onchange="mp.setContrast(value);previousSibling.value=value/50;"/>
+        </hbox>
+        </row>
+        <row align="center">
+        <label>&effects.saturation;:</label>
+        <hbox>
+            <textbox type="number" id="optSaturation" min="0" max="3" decimalplaces="2" increment="0.01" size="2" value="1" onchange="nextSibling.value=value*100-100"/>
+            <scale min="-100" max="100" value="0" onchange="mp.setSaturation(value);previousSibling.value=(value+100)/100;"/>
+        </hbox>
+        </row>
+        <row align="center">
+        <label>&effects.gamma;:</label>
+        <hbox>
+            <textbox type="number" id="optGamma" min="0.01" max="10" decimalplaces="2" increment="0.01" size="2" value="1" onchange="nextSibling.value=Math.log(value)/Math.log(8)*100"/>
+            <scale min="-100" max="100" value="0" onchange="mp.setGamma(value)"/>
+        </hbox>
+        </row>
+    </rows>
+</grid>
+</groupbox>
+<groupbox>
+    <caption>
+    <label>&effects.postProc;</label>
+    </caption>
+    <grid flex="1">
+    <columns>
+        <column/>
+        <column/>
+    </columns>
+    <rows>
+        <row align="center">
+            <label>&effects.autoLevel;:</label>
+            <radiogroup id="optAutoLevel" orient="horizontal" oncommand="setAttribute('data', selectedIndex);applyPlayerOptions();" persist="value">
+                <radio label="&effects.disabled;" value=""/>
+                <radio label="&effects.normal;" value="al"/>
+                <radio label="&effects.full;" value="al:f"/>
+            </radiogroup>
+        </row>
+        <row align="center">
+            <label class="tablabel2">&effects.deblocking;:</label>
+            <hbox>
+                <checkbox id="optDeblockH" label="&effects.horizontal;" persist="checked" value="hb" oncommand="applyPlayerOptions()"/>
+                <checkbox id="optDeblockV" label="&effects.vertical;" persist="checked" value="vb" oncommand="applyPlayerOptions()"/>
+            </hbox>
+        </row>
+        <row align="center">
+            <label class="tablabel2">&effects.deringing;:</label>
+            <checkbox id="optDering" label="&effects.enabled;" persist="checked" value="dr" oncommand="applyPlayerOptions()"/>
+        </row>
+        <row align="center">
+            <label class="tablabel2">&effects.denoising;:</label>
+            <checkbox id="optDenoise" label="&effects.enabled;" persist="checked" value="dr" oncommand="applyPlayerOptions()"/>
+        </row>
+        <row align="center">
+            <label class="tablabel2">&effects.deinterlacing;:</label>
+            <menulist id="optDeint" persist="selectedIndex" oncommand="applyPlayerOptions()">
+                <menupopup>
+                    <menuitem label="&effects.disabled;" value=""/>
+                    <menuitem label="&effects.linearBlend;" value="lb"/>
+                    <menuitem label="&effects.linearInterp;" value="li"/>
+                    <menuitem label="&effects.cubicInterp;" value="ci"/>
+                    <menuitem label="&effects.median;" value="md"/>
+                    <menuitem label="&effects.firLowpass;" value="l5"/>
+                </menupopup>
+            </menulist>      
+        </row>
+    </rows>
+    </grid>
+</groupbox>
+</hbox>
+</overlay>

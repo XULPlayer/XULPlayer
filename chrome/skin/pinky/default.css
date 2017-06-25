@@ -1,0 +1,226 @@
+.button-control{
+	max-width:36px;
+	max-height:36px;
+	width:36px;
+	height:36px;
+	margin-left:2px;
+	margin-right:2px;
+}
+#windowIcon {list-style-image:url("chrome://xulplayer/skin/images/windowIcon.png"); margin-left: 4px;width: 18px;height: 18px; }
+#windowTitle {
+font-family:Tahoma;
+font-size:medium;
+font-weight:bold;
+color:#ee0011;
+}
+#open-menu, #control-menu, #options-menu, #help-menu, #mainMenuBar{
+    background:none;
+    font-family:Tahoma;
+    -moz-appearance: none; color:#c23;margin: 0px 0px 0px 0px !important;
+    border:0px;
+}
+#open-menu:hover, #control-menu:hover, #options-menu:hover,#help-menu:hover{
+    background-image:url("chrome://xulplayer/skin/images/menu-active-bg.png") ;
+}
+.skin_plate{
+    -moz-appearance: none; margin: 0px 0px 0px 0px !important; border: 0px; 
+	background: none; 
+}
+.mainwindow{
+background-color:#ECECEC;
+font-family:Tahoma;
+font-size:11px;
+border:none;
+}
+
+.spacer {
+width: 10px;
+height: 10px;
+}
+
+#navToolbar{
+	background-image:url("chrome://xulplayer/skin/images/bbar.png");
+}
+
+#add_file {
+	list-style-image:url("chrome://xulplayer/skin/images/add_file.png");
+}
+#add_dvd {
+	list-style-image:url("chrome://xulplayer/skin/images/add_dvd.png");
+}
+#add_vcd {
+	list-style-image:url("chrome://xulplayer/skin/images/add_vcd.png");
+}
+#add_svcd {
+	list-style-image:url("chrome://xulplayer/skin/images/add_svcd.png");
+}
+#add_cd {
+	list-style-image:url("chrome://xulplayer/skin/images/add_cd.png");
+}
+#btn_screenshot {
+	list-style-image:url("chrome://xulplayer/skin/images/screenshot.png");
+}
+#btn_screenshot[disabled="true"] {
+	list-style-image:url("chrome://xulplayer/skin/images/screenshot_disabled.png");
+}
+#btn-fs {
+        list-style-image:url("chrome://xulplayer/skin/images/btn_fs.png");
+}
+#dualMode {
+font-weight:bold;
+background-image:url("chrome://xulplayer/skin/images/dualbar.png");
+color:#000033;
+text-align:center;
+}
+
+#remove {
+	list-style-image:url("chrome://xulplayer/skin/images/remove.png");
+}
+#start {
+	list-style-image:url("chrome://xulplayer/skin/images/start.png");
+}
+#play_icon,#stop_icon,#previous_icon,#fr_icon,#ff_icon,#next_icon{
+-moz-appearance: none; margin: 0px 0px 0px 0px !important; border: 0px; 
+}
+#play_icon{list-style-image:url("chrome://xulplayer/skin/images/play.png");}
+#play_icon[command="cmdPause"]{list-style-image:url("chrome://xulplayer/skin/images/pause.png");}
+#play_icon:hover[command="cmdPause"]{list-style-image:url("chrome://xulplayer/skin/images/pause_hover.png");}
+
+#play_icon[command="cmdPlay"]{list-style-image:url("chrome://xulplayer/skin/images/play.png");}
+#play_icon[disabled="true"]{list-style-image:url("chrome://xulplayer/skin/images/play_disabled.png");}
+#play_icon:active{list-style-image:url("chrome://xulplayer/skin/images/play_active.png");}
+#play_icon:hover[command="cmdPlay"]{list-style-image:url("chrome://xulplayer/skin/images/play_hover.png");}
+
+#stop_icon{list-style-image:url("chrome://xulplayer/skin/images/stop.png");}
+#stop_icon:hover{list-style-image:url("chrome://xulplayer/skin/images/stop_hover.png");}
+#stop_icon[disabled="true"]{list-style-image:url("chrome://xulplayer/skin/images/stop_disabled.png");}
+
+#previous_icon{list-style-image:url("chrome://xulplayer/skin/images/previous.png");}
+#previous_icon:hover{list-style-image:url("chrome://xulplayer/skin/images/previous_hover.png");}
+#previous_icon[disabled="true"]{list-style-image:url("chrome://xulplayer/skin/images/previous_disabled.png");}
+
+#fr_icon{list-style-image:url("chrome://xulplayer/skin/images/rewind.png");}
+#fr_icon:hover{list-style-image:url("chrome://xulplayer/skin/images/rewind_hover.png");}
+#fr_icon[disabled="true"]{list-style-image:url("chrome://xulplayer/skin/images/rewind_disabled.png");}
+
+#ff_icon{list-style-image:url("chrome://xulplayer/skin/images/forward.png");}
+#ff_icon:hover{list-style-image:url("chrome://xulplayer/skin/images/forward_hover.png");}
+#ff_icon[disabled="true"]{list-style-image:url("chrome://xulplayer/skin/images/forward_disabled.png");}
+
+#next_icon{list-style-image:url("chrome://xulplayer/skin/images/next.png");}
+#next_icon:hover{list-style-image:url("chrome://xulplayer/skin/images/next_hover.png");}
+#next_icon[disabled="true"]{list-style-image:url("chrome://xulplayer/skin/images/next_disabled.png");}
+
+#vol_icon{list-style-image:url("chrome://xulplayer/skin/images/volume.png");}
+
+#statusBar{
+font-weight:bold;
+font-size:smaller;
+color:#001100;
+text-align:center;
+}
+
+listitem[selected="true"] {
+background-color: #316AC5;
+color: white;
+}
+
+.lyric listitem{
+background-color: #000000;
+color: green;
+text-align: center;
+overflow: visible;
+}
+#textList {
+	overflow: -moz-scrollbars-none;
+	-moz-user-focus: ignore;
+}
+.lyric listitem[selected = "true"] {
+color: #00FF00;
+overflow: -moz-scrollbars-none;
+}
+
+#outputicon {
+	list-style-image:url("chrome://xulplayer/skin/images/output.png");
+}
+
+#titlebar {	
+	height: 26px;
+        background: url("images/topleft1.png") repeat-x 0px 0px;
+        border: 0px;
+}
+
+.titlebar caption {
+        background: none;
+        font: 11px "Tahoma", "Trebuchet MS", Arial;
+        text-align: left;
+        padding-top: 6px;
+}
+
+#titlebar-buttons {
+        margin: 4px 2px 0px 0px;
+        padding: 0px;
+        list-style-type: none;
+        overflow: hidden;
+}
+
+#titlebar-buttons-view {
+    list-style-image:url("chrome://xulplayer/skin/images/view_mode.png");
+}
+#titlebar-buttons-view:hover {
+    list-style-image:url("chrome://xulplayer/skin/images/view_mode_active.png");
+}
+#titlebar-buttons-minimize {
+    width:16px;
+        list-style-image:url("chrome://xulplayer/skin/images/min.png");
+}
+
+#titlebar-buttons-minimize:hover {   
+        list-style-image:url("chrome://xulplayer/skin/images/min_active.png");
+}
+
+#titlebar-buttons-maximize{
+        list-style-image:url("chrome://xulplayer/skin/images/max.png");
+}
+#titlebar-buttons-maximize:hover {   
+        list-style-image:url("chrome://xulplayer/skin/images/max_active.png");
+}
+#titlebar-buttons-close { 
+        list-style-image:url("chrome://xulplayer/skin/images/close.png");
+}
+#titlebar-buttons-close:hover {    
+        list-style-image:url("chrome://xulplayer/skin/images/close_active.png");
+}
+
+#mainTabBox /*#tabPlaylist,#tabInfo,#tabOptions,#tabEffects*/{
+	background-image:url("chrome://xulplayer/skin/images/color.png");
+}
+
+#bottomBar{
+        background-image:url("chrome://xulplayer/skin/images/dbar.png");
+        background-repeat: repeat-x;
+}
+
+caption {
+font-weight:bold;
+background:none; 
+}
+
+.effects row {
+height:28px;	
+}
+
+.colorAdjust textbox{
+text-align:center;
+}
+
+#resizer-topleft {
+    border:0px; cursor: nw-resize;
+    background-image: url("chrome://xulplayer/skin/images/tl_resizer_bg.png");
+    background-repeat: no-repeat;
+}
+#resizer-bottomright {
+    border:0px; cursor: se-resize;
+    background-image: url("chrome://xulplayer/skin/images/br_resizer_bg.png");
+    background-repeat:no-repeat;
+}

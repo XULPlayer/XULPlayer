@@ -1,0 +1,206 @@
+/* Skin: Nightly by project15.nl */
+
+/*----------------------------Global Style-----------------------------*/
+
+
+.skin_plate{
+-moz-appearance: none; margin: 0px 0px 0px 0px !important; border: 0px;
+    background:none; 
+}
+#main {
+border-color: #808080;
+}
+.mainwindow{
+background-color:#222222;
+font-family:Tahoma;
+font-size:11px;
+border: 0px;
+}
+
+.spacer {
+width: 10px;
+height: 10px;
+}
+resizer {
+background-color:transparent;
+border-color:black;
+}
+
+caption {
+background-color:transparent;
+}
+
+/*----------------------------Button Style-----------------------------*/
+.button-control{
+max-width:36px;
+max-height:36px;
+width:36px;
+height:36px;
+margin-left:2px;
+margin-right:2px;
+}
+#add_file {
+	list-style-image:url("chrome://xulplayer/skin/images/add_file.png");
+}
+#add_dvd {
+	list-style-image:url("chrome://xulplayer/skin/images/add_dvd.png");
+}
+#add_vcd {
+	list-style-image:url("chrome://xulplayer/skin/images/add_vcd.png");
+}
+#add_svcd {
+	list-style-image:url("chrome://xulplayer/skin/images/add_svcd.png");
+}
+#add_cd {
+	list-style-image:url("chrome://xulplayer/skin/images/add_cd.png");
+}
+#btn_screenshot {
+	list-style-image:url("chrome://xulplayer/skin/images/screenshot.png");
+}
+#btn_screenshot[disabled="true"] {
+	list-style-image:url("chrome://xulplayer/skin/images/screenshot_disabled.png");
+}
+
+#btn-fs {
+        list-style-image:url("chrome://xulplayer/skin/images/btn_fs.png");
+}
+#remove {
+	list-style-image:url("chrome://xulplayer/skin/images/remove.png");
+}
+#start {
+	list-style-image:url("chrome://xulplayer/skin/images/start.png");
+}
+#play_icon{list-style-image:url("chrome://xulplayer/skin/images/play.png");}
+#play_icon[command="cmdPause"]{list-style-image:url("chrome://xulplayer/skin/images/pause.png");}
+#play_icon[disabled="true"]{list-style-image:url("chrome://xulplayer/skin/images/play_disabled.png");}
+#stop_icon{list-style-image:url("chrome://xulplayer/skin/images/stop.png");}
+#stop_icon[disabled="true"]{list-style-image:url("chrome://xulplayer/skin/images/stop_disabled.png");}
+#previous_icon{list-style-image:url("chrome://xulplayer/skin/images/previous.png");}
+#previous_icon[disabled="true"]{list-style-image:url("chrome://xulplayer/skin/images/previous_disabled.png");}
+#fr_icon{list-style-image:url("chrome://xulplayer/skin/images/rewind.png");}
+#fr_icon[disabled="true"]{list-style-image:url("chrome://xulplayer/skin/images/rewind_disabled.png");}
+#ff_icon{list-style-image:url("chrome://xulplayer/skin/images/forward.png");}
+#ff_icon[disabled="true"]{list-style-image:url("chrome://xulplayer/skin/images/forward_disabled.png");}
+#next_icon{list-style-image:url("chrome://xulplayer/skin/images/next.png");}
+#next_icon[disabled="true"]{list-style-image:url("chrome://xulplayer/skin/images/next_disabled.png");}
+#vol_icon{list-style-image:url("chrome://xulplayer/skin/images/volume.png");}
+
+/*----------------------------Tittle bar Style-----------------------------*/
+#resizer-topleft {
+    border:0px; cursor: nw-resize;
+    background-image: url("chrome://xulplayer/skin/images/tl_resizer_bg.png");
+    background-repeat: no-repeat;
+}
+#windowTitle { }
+#windowIcon {
+    list-style-image:url("chrome://xulplayer/skin/images/windowIcon.png");
+    margin-left: 4px; width:18px; height:18px;
+}
+#titlebar {
+        background: url("chrome://xulplayer/skin/images/titlebar_strech_bg.png") repeat-x 0px 0px;
+        border: 0px;
+        height: 24px;
+}
+
+#titlebar-buttons-view {
+    list-style-image:url("chrome://xulplayer/skin/images/view_mode.png");
+}
+#titlebar-buttons-view:hover {
+    list-style-image:url("chrome://xulplayer/skin/images/view_mode_active.png");
+}
+#titlebar-buttons-minimize {
+    list-style-image:url("chrome://xulplayer/skin/images/min.png");
+}
+
+#titlebar-buttons-minimize:hover {   
+    list-style-image:url("chrome://xulplayer/skin/images/min_active.png");
+}
+
+#titlebar-buttons-maximize{
+    list-style-image:url("chrome://xulplayer/skin/images/max.png");
+}
+#titlebar-buttons-maximize:hover {   
+        list-style-image:url("chrome://xulplayer/skin/images/max_active.png");
+}
+#titlebar-buttons-close { 
+        list-style-image:url("chrome://xulplayer/skin/images/close.png");
+}
+#titlebar-buttons-close:hover {    
+        list-style-image:url("chrome://xulplayer/skin/images/close_active.png");
+}
+
+/*----------------------------Menu Style-----------------------------*/
+#open-menu, #control-menu, #options-menu, #help-menu, #mainMenuBar{
+    background-color: none;
+    -moz-appearance: none; color:#777777;margin: 0px 8px 0px 0px !important;
+    border:0px;
+    font-size: 12px !important;
+}
+#open-menu:hover, #control-menu:hover, #options-menu:hover,#help-menu:hover{
+    color:#ffffff;
+    background-image:url("chrome://xulplayer/skin/images/menu_active_bg.png");
+}
+
+menupopup{
+    border-width: 1px;
+    padding: 0px;
+}
+
+/*-----------------------Body Style (Including lyric, video window)-------------------------*/
+
+listitem[selected="true"] {
+background-color: #316AC5;
+color: white;
+}
+
+.lyric listitem{
+background-color: #000000;
+color: green;
+text-align: center;
+overflow: visible;
+}
+#lyric {
+ background-color: #000000;
+}
+#textList {
+	overflow: -moz-scrollbars-none;
+	-moz-user-focus: ignore;
+}
+.lyric listitem[selected = "true"] {
+color: #00FF00;
+overflow: -moz-scrollbars-none;
+}
+
+#media-lib-list {
+font-size:12px;
+}
+
+#playlist {
+font-size:12px;
+}
+/*-----------------------Tabbed Panel(Options, Effects, File list, etc)-------------------------*/
+
+tabpanels {
+    background-color:#E0E0E0;
+}
+
+/*-----------------------Bottom Bar(Including Play-toolbar, status bar)-------------------------*/
+
+#bottomBar{
+        background-image:url("chrome://xulplayer/skin/images/play_toolbar_strech_bg.png");
+        background-repeat: repeat-x;
+}
+#play-toolbar, #statusBar{
+    background: none;
+    font-size: 11px;
+}
+#resizer-bottomright {
+    border:0px; cursor: se-resize;
+    background-image: url("chrome://xulplayer/skin/images/br_resizer_bg.png");
+    background-repeat:no-repeat;
+}
+/*----------------------------------- Misc -------------------------------------*/
+#outputicon {
+	list-style-image:url("chrome://xulplayer/skin/images/output.png");
+}
+

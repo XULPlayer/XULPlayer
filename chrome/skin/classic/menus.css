@@ -1,0 +1,16 @@
+.menu_font
+{
+    color: #000000;
+}
+
+#vp-panel
+{
+    width: 400px;
+    height: 600px;
+}
+
+#vp-panel groupbox
+{
+    background-color: #cccccc;
+    -moz-opacity:0.9; 
+}

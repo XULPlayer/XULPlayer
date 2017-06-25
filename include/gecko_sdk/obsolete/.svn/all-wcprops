@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/include/gecko_sdk/obsolete
+END
+protypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/include/gecko_sdk/obsolete/protypes.h
+END
+prsem.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/include/gecko_sdk/obsolete/prsem.h
+END
+probslet.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/include/gecko_sdk/obsolete/probslet.h
+END
+pralarm.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/include/gecko_sdk/obsolete/pralarm.h
+END

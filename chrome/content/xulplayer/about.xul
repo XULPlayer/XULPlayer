@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://xulplayer/skin/about.css" type="text/css"?>
+
+<window id="about" title="About"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        width="540" height="450"
+        onclick="window.close()"
+        >
+
+<vbox id="mainPanel" flex='1' align="center">
+    <spacer flex="1"/>
+    <description id = "version" value="&player.title;&player.version;0.6.0" flex="1"/>
+    <hbox flex="1" align="baseline">
+        <image id="aboutImg" src="chrome://xulplayer/skin/images/logo.png" flex="1"/>
+        <label id="playerName" value = "XULPlayer" flex="1"/>
+    </hbox>
+    <spacer flex="1"/>
+    <description value="&player.copyright;" flex="1"/>
+</vbox>
+</window>

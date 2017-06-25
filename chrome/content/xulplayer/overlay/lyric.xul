@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+
+<overlay id="lyric_overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<vbox id="lyric" class="skin_plate">
+    <!--<label>&lyricList.title;</label>-->
+    <hbox flex = "1" class="skin_plate">
+    <listbox id="textList" flex = "1" class="lyric"/>
+    </hbox>
+</vbox>
+</overlay>

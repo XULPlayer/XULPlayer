@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+
+<!--
+================================================================================
+/**
+* play control ToolBar
+*/
+================================================================================
+-->
+
+<overlay id="browser_toolbar_overlay"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<toolbar id="browser_toolbar" class="toolbar skin_plate">
+	<image id="btnBack" class="toolbutton-browser" onclick="browseBack()" tooltiptext="&tips.browser.goBack;"/>
+	<image id="btnPrev" class="toolbutton-browser" onclick="browsePrev()" tooltiptext="&tips.browser.goPrev;"/>
+	<image id="btnStop" class="toolbutton-browser" onclick="browseStop()" tooltiptext="&tips.browser.stop;"/>
+	<image id="btnFresh" class="toolbutton-browser" onclick="browseRefresh()" tooltiptext="&tips.browser.refresh;"/>
+	<image id="btnHome" class="toolbutton-browser" onclick="browseHome()" tooltiptext="&tips.browser.goHome;"/>
+</toolbar>
+</overlay>

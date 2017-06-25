@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/559/trunk/strpro/libxml
+END
+xmlexports.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/558/trunk/strpro/libxml/xmlexports.h
+END
+xlink.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/558/trunk/strpro/libxml/xlink.h
+END
+encoding.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/559/trunk/strpro/libxml/encoding.h
+END
+xmlstring.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/558/trunk/strpro/libxml/xmlstring.h
+END
+xmlIO.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/558/trunk/strpro/libxml/xmlIO.h
+END
+xmlmemory.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/558/trunk/strpro/libxml/xmlmemory.h
+END
+threads.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/558/trunk/strpro/libxml/threads.h
+END
+SAX.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/558/trunk/strpro/libxml/SAX.h
+END
+xmlautomata.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/558/trunk/strpro/libxml/xmlautomata.h
+END
+parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/558/trunk/strpro/libxml/parser.h
+END
+valid.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/558/trunk/strpro/libxml/valid.h
+END
+tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/558/trunk/strpro/libxml/tree.h
+END
+xmlversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/558/trunk/strpro/libxml/xmlversion.h
+END
+xmlerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/558/trunk/strpro/libxml/xmlerror.h
+END
+xmlregexp.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/558/trunk/strpro/libxml/xmlregexp.h
+END
+list.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/558/trunk/strpro/libxml/list.h
+END
+SAX2.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/558/trunk/strpro/libxml/SAX2.h
+END
+globals.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/558/trunk/strpro/libxml/globals.h
+END
+hash.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/558/trunk/strpro/libxml/hash.h
+END
+dict.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/558/trunk/strpro/libxml/dict.h
+END
+xpath.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/558/trunk/strpro/libxml/xpath.h
+END
+entities.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/558/trunk/strpro/libxml/entities.h
+END

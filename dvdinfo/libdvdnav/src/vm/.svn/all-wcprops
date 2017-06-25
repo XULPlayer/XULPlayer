@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/vm
+END
+vmcmd.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/vm/vmcmd.c
+END
+vm.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/vm/vm.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/vm/Makefile.am
+END
+decoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/vm/decoder.h
+END
+vmcmd.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/vm/vmcmd.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/vm/Makefile.in
+END
+vm.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/vm/vm.c
+END
+decoder.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/vm/decoder.c
+END

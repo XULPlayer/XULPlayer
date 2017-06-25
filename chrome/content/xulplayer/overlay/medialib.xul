@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+
+<overlay id="medialib_overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<hbox id="media-lib-bar" flex="1">
+    <vbox flex="1">
+    <button label="&medialib.searchMedia;" oncommand="searchMedia()"/>
+    <vbox id="file-list" flex="1">
+    </vbox>
+    </vbox>
+</hbox>
+</overlay>

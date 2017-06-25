@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://dvdrip/locale/dvdrip.dtd">
+
+<!--
+	================================================================================
+	/**
+	* nav ToolBar
+	*/
+	================================================================================
+-->
+
+<overlay id="toolbar_overlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<commandset id="toolbarCommands">
+		<command id="cmdShowDvdInfo" oncommand="showDvdInfo()" />
+	</commandset>
+
+	<toolbar id="toolbar" class="toolbar">
+		<menulist flex="1" minwidth="100" id="cdrom-list" command="cmdShowDvdInfo">
+			<menupopup id="cdrom-popup">
+			</menupopup>
+		</menulist>
+		<spacer class="spacer"/>
+		<!-- <button id="btn_showDvdinfo" label="Show" command="cmdShowDvdInfo" flex="1"></button> -->
+	</toolbar>
+</overlay>

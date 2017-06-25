@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dvd_info", "ifo_dump.vcproj", "{44887F4F-ED8D-4943-B0B5-FBC4058E1B12}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F34D6E11-E037-4A58-A216-2107F2A27820} = {F34D6E11-E037-4A58-A216-2107F2A27820}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libdvdcss", "libdvdcss.vcproj", "{91DD1F60-D363-451B-AF8C-A1338891020B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libdvdnav", "libdvdnav.vcproj", "{F34D6E11-E037-4A58-A216-2107F2A27820}"
+	ProjectSection(ProjectDependencies) = postProject
+		{33FE3053-A59D-4BD3-AD12-04AD50D183D1} = {33FE3053-A59D-4BD3-AD12-04AD50D183D1}
+		{91DD1F60-D363-451B-AF8C-A1338891020B} = {91DD1F60-D363-451B-AF8C-A1338891020B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libwin32utils", "libwin32utils.vcproj", "{33FE3053-A59D-4BD3-AD12-04AD50D183D1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{44887F4F-ED8D-4943-B0B5-FBC4058E1B12}.Debug.ActiveCfg = Debug|Win32
+		{44887F4F-ED8D-4943-B0B5-FBC4058E1B12}.Debug.Build.0 = Debug|Win32
+		{44887F4F-ED8D-4943-B0B5-FBC4058E1B12}.Release.ActiveCfg = Release|Win32
+		{44887F4F-ED8D-4943-B0B5-FBC4058E1B12}.Release.Build.0 = Release|Win32
+		{91DD1F60-D363-451B-AF8C-A1338891020B}.Debug.ActiveCfg = Debug|Win32
+		{91DD1F60-D363-451B-AF8C-A1338891020B}.Debug.Build.0 = Debug|Win32
+		{91DD1F60-D363-451B-AF8C-A1338891020B}.Release.ActiveCfg = Release|Win32
+		{91DD1F60-D363-451B-AF8C-A1338891020B}.Release.Build.0 = Release|Win32
+		{F34D6E11-E037-4A58-A216-2107F2A27820}.Debug.ActiveCfg = Debug|Win32
+		{F34D6E11-E037-4A58-A216-2107F2A27820}.Debug.Build.0 = Debug|Win32
+		{F34D6E11-E037-4A58-A216-2107F2A27820}.Release.ActiveCfg = Release|Win32
+		{F34D6E11-E037-4A58-A216-2107F2A27820}.Release.Build.0 = Release|Win32
+		{33FE3053-A59D-4BD3-AD12-04AD50D183D1}.Debug.ActiveCfg = Debug|Win32
+		{33FE3053-A59D-4BD3-AD12-04AD50D183D1}.Debug.Build.0 = Debug|Win32
+		{33FE3053-A59D-4BD3-AD12-04AD50D183D1}.Release.ActiveCfg = Release|Win32
+		{33FE3053-A59D-4BD3-AD12-04AD50D183D1}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

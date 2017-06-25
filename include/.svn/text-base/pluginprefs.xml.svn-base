@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefs>
+  <node key="overall" type="node" text="Overall">
+    <node key="ui" type="node" text="User Interface">
+      <node key="splash" type="bool" text="Show splash on startup">
+        <value>true</value>
+      </node>
+      <node key="detached" type="bool" text="Video window detached"/>
+      <node key="CdromPath" type="string" text="cdrom path" max="16">
+      </node>
+    </node>
+  </node>
+</prefs>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+
+<overlay id="playlist_overlay"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<vbox id="tabProjector">
+    <hbox>
+    <checkbox id="optEnableProjector" label="&effects.enabled;" persist="checked" style="font-weight:bold"/>
+    <button label="&common.apply;" oncommand="applyPlayerOptions()"/>
+    </hbox>
+
+    <hbox>
+    <groupbox>
+    <hbox align="center">
+        <label width="80">&projector.fuseWidth;:</label>
+        <textbox id="fuseWidth" type="number" min="0" max="100" decimalplaces="2" increment="0.01" size="3" value="10" persist="data" onchange="nextSibling.value=value*100"/>
+        <scale min="0" max="10000" width="170" onchange="previousSibling.value=value/100"/>
+    </hbox>
+    <hbox align="center">
+        <label width="80">&projector.rollWidth;:</label>
+        <textbox id="rollWidth" type="number" min="0" max="100" decimalplaces="2" increment="0.01" size="3" value="5" persist="data" onchange="nextSibling.value=value*100"/>
+        <scale min="0" max="10000" width="170" onchange="sendPlayerCmd('set_property rolloff_bw '+value);previousSibling.value=value/100;"/>
+    </hbox>
+    <hbox align="center">
+        <label width="80">&projector.fuseArg1;:</label>
+        <textbox id="fuseArg1" type="number" min="0" decimalplaces="2" increment="0.01" size="3" value="5" persist="data" onchange="nextSibling.value=value*100"/>
+        <scale min="0" max="1000" width="170" onchange="sendPlayerCmd('set_property rolloff1 '+value);previousSibling.value=value/100;"/>
+    </hbox>
+    <hbox align="center">
+        <label width="80">&projector.fuseArg2;:</label>
+        <textbox id="fuseArg2" type="number" min="0" decimalplaces="2" increment="0.01" size="3" value="1" persist="data" onchange="nextSibling.value=value*100"/>
+        <scale min="0" max="500" width="170" onchange="sendPlayerCmd('set_property rolloff2 '+value);previousSibling.value=value/100;"/>
+    </hbox>
+    <hbox align="center">
+        <label width="80">&projector.fusePos;1:</label>
+        <textbox id="fusePos1" type="number" min="0" max="100" decimalplaces="1" increment="0.1" size="3" value="33" persist="data" onchange="nextSibling.value=value*100"/>
+        <scale min="0" max="10000" width="170" onchange="sendPlayerCmd('set_property duppos0 '+value);previousSibling.value=value/100"/>
+    </hbox>
+    <hbox align="center">
+        <label width="80">&projector.fusePos;2:</label>
+        <textbox id="fusePos2" type="number" min="0" max="100" decimalplaces="1" increment="0.1" size="3" value="66" persist="data" onchange="nextSibling.value=value*100"/>
+        <scale min="0" max="10000" width="170" onchange="sendPlayerCmd('set_property duppos1 '+value);previousSibling.value=value/100"/>
+    </hbox>
+    <hbox align="center">
+        <label width="80">&projector.fusePos;3:</label>
+        <textbox id="fusePos3" type="number" min="0" max="100" decimalplaces="1" increment="0.1" size="3" value="0" persist="data" onchange="nextSibling.value=value*100"/>
+        <scale min="0" max="10000" width="170" onchange="sendPlayerCmd('set_property duppos2 '+value);previousSibling.value=value/100"/>
+    </hbox>
+    </groupbox>
+    <groupbox align="center">
+    <checkbox label="&projector.geometry;" id="enableCurve" persist="checked"/>
+    <spacer height="5"/>
+    <hbox align="center">
+        <label width="50">&projector.topCurve;</label><textbox id="curveTop" type="number" size="3" value="1" decimalplaces="2" increment="0.01" persist="data" onchange="sendPlayerCmd('set_property curve_top '+(value*100))"/>
+    </hbox>
+    <hbox align="center">
+        <label width="50">&projector.bottomCurve;</label><textbox id="curveBottom" type="number" size="3" value="1"  decimalplaces="2" increment="0.01" persist="data" onchange="sendPlayerCmd('set_property curve_bottom '+(value*100))"/>
+    </hbox>
+    </groupbox>
+    <groupbox align="center">
+    <checkbox label="&projector.window;" id="windowPos" persist="checked"/>
+    <spacer height="5"/>
+    <hbox align="center">
+        <label width="12">X</label><textbox id="optX" type="number" size="3" value="0" persist="data"/>
+    </hbox>
+    <hbox align="center">
+        <label width="12">Y</label><textbox id="optY" type="number" size="3" value="0" persist="data"/>
+    </hbox>
+    <hbox align="center">
+        <label width="12">W</label><textbox id="optW" type="number" size="3" value="640" persist="data"/>
+    </hbox>
+    <hbox align="center">
+        <label width="12">H</label><textbox id="optH" type="number" size="3" value="480" persist="data"/>
+    </hbox>
+    </groupbox>
+    </hbox>
+    <hbox>
+    <tabbox id="screenColor">
+        <tabs>
+        <tab label="&projector.screen;#1"/>
+        <tab label="&projector.screen;#2"/>
+        <tab label="&projector.screen;#3"/>
+        </tabs>
+        <tabpanels flex="1">
+        <tabpanel orient="vertical">
+            <checkbox label="&effects.enabled;" persist="checked"/>
+            <hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.contrast;:</label>
+                <textbox type="number" min="-2" max="2" decimalplaces="2" increment="0.01" value="1" size="3"/>
+            </hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.brightness;:</label>
+                <textbox type="number" min="-1" max="1" decimalplaces="2" increment="0.01" value="0" size="3"/>
+            </hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.saturation;:</label>
+                <textbox type="number" min="0" max="3" decimalplaces="2" increment="0.01" size="3" value="1"/>
+            </hbox>
+            </hbox>
+            <hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.red;:</label>
+                <textbox type="number" min="0.01" max="10" decimalplaces="2" increment="0.01" size="3" value="1"/>
+            </hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.green;:</label>
+                <textbox type="number" min="0.01" max="10" decimalplaces="2" increment="0.01" size="3" value="1"/>
+            </hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.blue;:</label>
+                <textbox type="number" min="0.01" max="10" decimalplaces="2" increment="0.01" size="3" value="1"/>
+            </hbox>
+            </hbox>
+        </tabpanel>
+        <tabpanel orient="vertical">
+            <checkbox label="&effects.enabled;" persist="checked"/>
+            <hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.contrast;:</label>
+                <textbox type="number" min="-2" max="2" decimalplaces="2" increment="0.01" value="1" size="3"/>
+            </hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.brightness;:</label>
+                <textbox type="number" min="-1" max="1" decimalplaces="2" increment="0.01" value="0" size="3"/>
+            </hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.saturation;:</label>
+                <textbox type="number" min="0" max="3" decimalplaces="2" increment="0.01" size="3" value="1"/>
+            </hbox>
+            </hbox>
+            <hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.red;:</label>
+                <textbox type="number" min="0.01" max="10" decimalplaces="2" increment="0.01" size="3" value="1"/>
+            </hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.green;:</label>
+                <textbox type="number" min="0.01" max="10" decimalplaces="2" increment="0.01" size="3" value="1"/>
+            </hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.blue;:</label>
+                <textbox type="number" min="0.01" max="10" decimalplaces="2" increment="0.01" size="3" value="1"/>
+            </hbox>
+            </hbox>
+        </tabpanel>
+        <tabpanel orient="vertical">
+            <checkbox label="&effects.enabled;" persist="checked"/>
+            <hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.contrast;:</label>
+                <textbox type="number" min="-2" max="2" decimalplaces="2" increment="0.01" value="1" size="3"/>
+            </hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.brightness;:</label>
+                <textbox type="number" min="-1" max="1" decimalplaces="2" increment="0.01" value="0" size="3"/>
+            </hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.saturation;:</label>
+                <textbox type="number" min="0" max="3" decimalplaces="2" increment="0.01" size="3" value="1"/>
+            </hbox>
+            </hbox>
+            <hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.red;:</label>
+                <textbox type="number" min="0.01" max="10" decimalplaces="2" increment="0.01" size="3" value="1"/>
+            </hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.green;:</label>
+                <textbox type="number" min="0.01" max="10" decimalplaces="2" increment="0.01" size="3" value="1"/>
+            </hbox>
+            <hbox align="center">
+                <label class="tablabel3">&effects.blue;:</label>
+                <textbox type="number" min="0.01" max="10" decimalplaces="2" increment="0.01" size="3" value="1"/>
+            </hbox>
+            </hbox>
+        </tabpanel>
+    </tabpanels>
+    </tabbox>
+    </hbox>
+    <hbox>
+    </hbox>
+</vbox>
+
+</overlay>

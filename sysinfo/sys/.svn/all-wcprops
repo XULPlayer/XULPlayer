@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/sysinfo/sys
+END
+MAKEFILE
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/sysinfo/sys/MAKEFILE
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/sysinfo/sys/resource.h
+END
+PCIDEBUG.INI
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/sysinfo/sys/PCIDEBUG.INI
+END
+Pcidebug.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/sysinfo/sys/Pcidebug.c
+END
+SysInfo_Sys.sln
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/sysinfo/sys/SysInfo_Sys.sln
+END
+SOURCES
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/sysinfo/sys/SOURCES
+END
+PciDebug.rc
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/sysinfo/sys/PciDebug.rc
+END
+Pcidebug.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/sysinfo/sys/Pcidebug.h
+END
+SysInfo_Sys.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/sysinfo/sys/SysInfo_Sys.vcproj
+END

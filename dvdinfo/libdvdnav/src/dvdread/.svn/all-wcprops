@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread
+END
+nav_print.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/nav_print.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/Makefile.in
+END
+dvd_input.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/dvd_input.h
+END
+dvd_reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/dvd_reader.h
+END
+nav_print.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/nav_print.h
+END
+ifo_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/ifo_types.h
+END
+ifo_read.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/ifo_read.c
+END
+dvdread_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/dvdread_internal.h
+END
+dvd_udf.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/dvd_udf.c
+END
+nav_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/nav_types.h
+END
+ifo_read.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/ifo_read.h
+END
+nav_read.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/nav_read.c
+END
+dvd_udf.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/dvd_udf.h
+END
+bswap.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/bswap.h
+END
+nav_read.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/nav_read.h
+END
+md5.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/md5.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/Makefile.am
+END
+ifo_print.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/ifo_print.c
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/md5.h
+END
+dvd_input.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/dvd_input.c
+END
+ifo_print.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/ifo_print.h
+END
+dvd_reader.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdread/dvd_reader.c
+END

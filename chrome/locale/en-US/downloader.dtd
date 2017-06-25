@@ -1,0 +1,73 @@
+<!ENTITY title "Downloader">
+<!ENTITY tooladd.label "Add URL(s)">
+<!ENTITY tooladd.tooltip "Manually add an URL to DownThemAll">
+<!ENTITY tooldonate.tooltiptext "You can help us make DownThemAll even better. Consider making a small donation!">
+<!ENTITY movetop.label "Top">
+<!ENTITY movebottom.label "Bottom">
+<!ENTITY moveup.label "Up">
+<!ENTITY movedown.label "Down">
+
+<!ENTITY task.label "URL/Name">
+<!ENTITY per.label "Completion">
+<!ENTITY pct.label "Progress">
+<!ENTITY dim.label "Size">
+<!ENTITY time.label "Est. time">
+<!ENTITY parts.label "Segments">
+<!ENTITY speed.label "Speed">
+<!ENTITY numOfSrc.label "Source">
+<!ENTITY numOfClient.label "Client">
+<!ENTITY priority.label "priority">
+<!ENTITY link.label "link">
+
+<!ENTITY infoURLTitle.value "From:">
+<!ENTITY infoSizeTitle.value "Size:">
+<!ENTITY infoMultiple.value "Multiple Items">
+<!ENTITY elapsedTitle.value "Elapsed:">
+<!ENTITY remainingTitle.value "Remaining:">
+<!ENTITY currentSpeedTitle.value "Current speed:">
+<!ENTITY avgSpeedTitle.value "Average Speed:">
+<!ENTITY path.label "Save path">
+<!ENTITY mask.label "Renaming Mask">
+<!ENTITY hash.label "Checksum">
+<!ENTITY infos.label "Download information">
+<!ENTITY launch.label "Open file">
+<!ENTITY delete.label "Delete file(s)">
+<!ENTITY targetdir.label "Open directory">
+<!ENTITY pause.label "Pause">
+<!ENTITY resume.label "Resume">
+<!ENTITY cancel.label "Cancel">
+<!ENTITY remove.label "Remove selected downloads">
+<!ENTITY removeCompleted.label "Remove completed tasks">
+<!ENTITY removeGone.label "Clean gone files">
+<!ENTITY misc.label "Misc">
+<!ENTITY addchunk.label "One more segment">
+<!ENTITY removechunk.label "One less segment">
+<!ENTITY force.label "Force start">
+<!ENTITY import.label "Import from file">
+<!ENTITY export.label "Export selected">
+<!ENTITY options.caption "Options">
+<!ENTITY loading.label "Loading...">
+<!ENTITY restore.label "Restore">
+<!ENTITY close.label "Close">
+
+<!ENTITY start.label "Start!">
+<!ENTITY start.key "s">
+<!ENTITY queue.label "Add paused">
+<!ENTITY queue.key "p">
+<!ENTITY cancel.label "Cancel">
+<!ENTITY options.label "Preferences">
+<!ENTITY url.value "URL">
+<!ENTITY dest.caption "Save files in:">
+<!ENTITY referrer.value "Referrer URL:">
+<!ENTITY description.value "Description:">
+<!ENTITY checksum.value "Checksum (Hash):">
+<!ENTITY browse.tip "Browse for target folder...">
+<!ENTITY mask.label "Renaming mask">
+<!ENTITY mask.tip "Selected files will be saved and renamed using this mask">
+<!ENTITY selectall.label "Select all">
+<!ENTITY selectinv.label "Invert selection">
+<!ENTITY selectnone.label "Select none">
+
+<!ENTITY addurl.title "Add URL">
+<!ENTITY addurl.desc "Enter the URL here: ">
+

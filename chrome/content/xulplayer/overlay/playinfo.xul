@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+<overlay id="play_info_overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <box id="tv_tool_play_info">
+        <groupbox>
+            <hbox>
+                <box class="pl_info_play"></box>
+                <stack>
+                    <vbox>
+                        <spacer flex="1"/>
+                        <hbox id="pl_info_progress_bg"></hbox>
+                        <spacer flex="1"/>
+                    </vbox>
+                    <vbox>
+                        <spacer flex="1"/>
+                            <hbox id="pl_info_progress_front" ></hbox>
+                        <spacer flex="1"/>
+                    </vbox>
+                    <vbox>
+                        <spacer flex="1"/>
+                            <box id="pl_info_progress_btn"></box>
+                         <spacer flex="1"/>
+                    </vbox>
+                </stack>
+            </hbox>
+        </groupbox>
+    </box>
+</overlay>

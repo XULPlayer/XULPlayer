@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+
+<overlay id="browser_overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<vbox id="tabBrowser" flex="1">
+    <hbox align="center">
+        <label>&player.url;</label>
+        <textbox id="url" flex="1" onkeypress="if (event.which == 13) loadWebPage(value)"/>
+        <button label="Go" oncommand="loadWebPage(previousSibling.value)"/>
+    </hbox>
+    <browser id="browser" flex="1"/>    
+</vbox>
+</overlay>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://xulplayer/locale/downloader.dtd">
+<overlay
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	>
+	<hbox id="infoBox">
+		<vbox>		
+			<image id="infoIcon" src="chrome://xulplayer/skin/images/windowIcon.png" />
+		</vbox>
+		<grid id="infoBox" flex="1">
+			<columns>
+				<column/>
+				<column flex="1"/>
+			</columns>
+			<rows>
+				<label crop="left" id="infoDest" />
+				<row>
+					<label value="&infoURLTitle.value;" />
+					<textbox class="plain" id="infoURL" />
+				</row>
+				<row>
+					<label value="&infoSizeTitle.value;" />
+					<textbox class="plain" id="infoSize" />
+				</row>
+			</rows>
+		</grid>
+	</hbox>	
+	
+	<grid id="canvasGrid">	
+		<columns><column/><column flex="1"/><column/><column/></columns>
+		<rows>
+			<separator class="thin"/>		
+			<stack id="chunkStack" flex="1">
+				<html:canvas id="chunkCanvas" height="40"></html:canvas>
+				<label id="infoPercent"/>
+			</stack>
+			<hbox id="chunkAlt" flex="1">
+				<progressmeter flex="1" id="chunkProgressAlt" type="determined" value="50%" />
+				<label id="infoPercentAlt"/>
+			</hbox>
+			<row>
+				<label value="&elapsedTitle.value;"/>
+				<label id="timeElapsed"/>
+				<label value="&remainingTitle.value;"/>
+				<label id="timeRemaining"/>
+			</row>
+			<separator class="thin" />
+			<html:canvas id="speedCanvas" height="30"></html:canvas>
+			<row>
+				<label value="&currentSpeedTitle.value;"/>
+				<label id="speedCurrent"/>
+				<label value="&avgSpeedTitle.value;"/>
+				<label id="speedAverage"/>
+			</row>
+		</rows>
+	</grid>	
+</overlay>

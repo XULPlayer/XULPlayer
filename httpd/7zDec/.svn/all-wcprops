@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/2/trunk/7zDec
+END
+makefile.gcc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/7zDec/makefile.gcc
+END
+7zIn.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/7zDec/7zIn.c
+END
+7zCrc.c
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/7zDec/7zCrc.c
+END
+7zBuffer.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/7zDec/7zBuffer.c
+END
+7zTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/7zDec/7zTypes.h
+END
+7zExtract.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/7zDec/7zExtract.c
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/7zDec/makefile
+END
+7zIn.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/7zDec/7zIn.h
+END
+7zCrc.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/7zDec/7zCrc.h
+END
+7zDec.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/7zDec/7zDec.vcproj
+END
+7zInc.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/7zDec/7zInc.h
+END
+7zBuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/7zDec/7zBuffer.h
+END
+7zExtract.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/7zDec/7zExtract.h
+END
+7zDllMain.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/7zDec/7zDllMain.c
+END
+7zDecode.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/7zDec/7zDecode.c
+END
+7zMain.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/7zDec/7zMain.c
+END
+7zDll.def
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/7zDec/7zDll.def
+END
+7zDecode.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/7zDec/7zDecode.h
+END
+7zHeader.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/7zDec/7zHeader.c
+END
+7zAlloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/7zDec/7zAlloc.c
+END
+7zDec_vc7.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/7zDec/7zDec_vc7.vcproj
+END
+7zMethodID.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/7zDec/7zMethodID.c
+END
+7zHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/7zDec/7zHeader.h
+END
+7zItem.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/7zDec/7zItem.c
+END
+7zAlloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/7zDec/7zAlloc.h
+END
+7zMethodID.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/7zDec/7zMethodID.h
+END
+7zItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/7zDec/7zItem.h
+END

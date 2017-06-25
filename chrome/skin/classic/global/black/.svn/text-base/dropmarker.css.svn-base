@@ -1,0 +1,24 @@
+dropmarker {
+  -moz-appearance: menulist-button;
+  width: 16px;
+  height: 16px;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+  border: 0px solid;
+  background-color: none;
+  padding: 1px;
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn.gif");
+  -moz-image-region: auto;
+}
+
+dropmarker:hover:active {
+  padding-top: 2px;
+  padding-bottom: 0px;
+  -moz-padding-start: 2px;
+  -moz-padding-end: 0px;
+}
+
+dropmarker[disabled="true"] {
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn-dis.gif");
+  padding: 1px !important;
+}

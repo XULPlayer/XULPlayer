@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/594/trunk/include/StrPro
+END
+StrProInc.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/594/trunk/include/StrPro/StrProInc.h
+END
+charset.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/include/StrPro/charset.h
+END
+StrProMacro.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/include/StrPro/StrProMacro.h
+END

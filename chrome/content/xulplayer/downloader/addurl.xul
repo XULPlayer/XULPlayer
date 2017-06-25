@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!-- You may find the license in the LICENSE file -->
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://xulplayer/skin/xulplayer/style.css" type="text/css" ?>
+<?xml-stylesheet href="chrome://xulplayer/skin/xulplayer/add.css" type="text/css" ?>
+
+<!DOCTYPE dialog [
+	<!ENTITY % globalDTD SYSTEM "chrome://global/locale/global.dtd">
+	%globalDTD;
+	<!ENTITY % downloaderDTD SYSTEM "chrome://xulplayer/locale/downloader.dtd">
+	%downloaderDTD;
+]>
+
+<dialog
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	title="&addurl.title;"
+	id="Downloader" 
+	onload="Dialog.init();" 
+	height="180" width="480"
+	ondialogaccept="return Dialog.download(true);"
+	ondialogextra1="return Dialog.download(false);"
+	buttons="accept,extra1,cancel"
+	buttonlabelaccept="&start.label;"
+	buttonlabelextra1="&queue.label;"
+	buttonaccesskeyaccept="&start.key;"
+	buttonaccesskeyextra1="&queue.key;"	
+	>
+
+	<script type="application/javascript" src="../js/libp2p.js" />	
+	<script type="application/javascript" src="ajax.js" />
+	<script type="application/javascript" src="base64.js" />
+	<script type="application/javascript" src="utorrent.js" />
+	<script type="application/javascript" src="mlnet.js" />
+	<script type="application/javascript" src="emule.js" />
+	<script type="application/javascript" src="internal.js" />
+	<script type="application/javascript" src="helper.js" />
+	<script type="application/javascript" src="manager.js" />
+	<script type="application/javascript" src="addurl.js" />        
+	
+	<stringbundleset>
+		<stringbundle src="chrome://xulplayer/locale/downloader.properties"/>
+	</stringbundleset>
+	
+	<keyset>
+		<key keycode="VK_ESCAPE" oncommand="self.close();"/>
+	</keyset>
+	
+	<dialogheader id="logo">
+		<image/>
+		<label class="dialogheader-title" value="&addurl.title;" flex="1"/>
+	</dialogheader>
+	<description class="header" id="descr">&addurl.desc;</description>
+	<separator class="thin"/>
+	<grid onclick="event.stopPropagation();" >
+		<columns>
+			<column />
+			<column flex="1"/>
+		</columns>
+		<rows>
+			<row align="center">
+				<label control="address" value="&url.value;:"/>
+				<textbox id="address" type="autocomplete" autocompletesearch="history" completedefaultindex="true"/>
+			</row>
+		</rows>
+	</grid>
+</dialog>

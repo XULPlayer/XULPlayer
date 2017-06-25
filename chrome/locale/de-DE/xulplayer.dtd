@@ -1,0 +1,272 @@
+﻿<!ENTITY player.title   "XULPlayer">
+<!ENTITY player.version   " Version ">
+<!ENTITY player.copyright "XULPlayer ist ein Open-Source XUL-basierter Desktop Media Player der unter GPL-Lizenz steht.">
+<!ENTITY player.btOK   "OK">
+<!ENTITY player.btNO   "NEIN">
+
+<!ENTITY player.btSTART   "START">
+
+<!ENTITY player.listTrack   "Track">
+<!ENTITY player.listChapter   "Kapitel">
+<!ENTITY player.listAudioChannel   "Audio-Kanal">
+<!ENTITY player.listSubtitle   "Untertitel">
+
+<!ENTITY player.tabDevices   "Geräte">
+<!ENTITY player.tabAdvanced   "Erweitert">
+<!ENTITY player.tabOutput   "Ausgabe">
+<!ENTITY player.tabEffects   "Effekte">
+<!ENTITY player.tabSplit   "Teilen">
+
+<!ENTITY player.sendMPCommand   "MPlayer Kommando">
+<!ENTITY player.getResult   "Ergebnis">
+<!ENTITY player.videoOut   "Video-Ausgabe">
+<!ENTITY player.audioOut   "Audio-Ausgabe">
+<!ENTITY player.outputChannels   "Output Channels">
+<!ENTITY player.noAccel   "keine Hardwareunterstützung">
+<!ENTITY player.options   "Optionen">
+<!ENTITY player.default   "Standard">
+<!ENTITY player.none   "Keine">
+<!ENTITY player.extraCmdLine   "Kommandozeilen-Optionen">
+<!ENTITY player.fullView "Komplettansicht">
+<!ENTITY player.compactView "Kompaktansicht">
+<!ENTITY player.simpleView "Simple View">
+<!ENTITY player.miniView "Mini View">
+<!ENTITY player.deviceView "Device View">
+<!ENTITY player.priority "Priorität">
+<!ENTITY player.idle "Leerlauf">
+<!ENTITY player.belowNormal "unter Normal">
+<!ENTITY player.normal "Normal">
+<!ENTITY player.aboveNormal "über Normal">
+<!ENTITY player.high "Hoch">
+<!ENTITY menu.files "Datei">
+<!ENTITY menu.openUrl   "Open URL">
+<!ENTITY menu.openFile   "Datei öffnen">
+<!ENTITY menu.addFolder "Verzeichnis erzeugen">
+<!ENTITY menu.addFolderSub "Verzeichnis &amp; Unterverzeichnisse erzeugen">
+<!ENTITY menu.exit "Beenden">
+<!ENTITY menu.options "Optionen">
+<!ENTITY menu.controls "Ansicht">
+<!ENTITY menu.detached "externes Video-Fenster">
+<!ENTITY menu.videoSize "Video-Grösse">
+<!ENTITY menu.fitWindow "Fenstergrösse">
+<!ENTITY menu.fitVideo "Fit Video Size">
+<!ENTITY menu.fullScreen   "Vollbild">
+<!ENTITY menu.windowTop "Always Top">
+
+<!ENTITY menu.audioSet "Audio">
+<!ENTITY menu.switchAudio "Switch Audio">
+<!ENTITY menu.delayAo "Delay Audio 0.1S">
+<!ENTITY menu.advanceAo "Advance Audio 0.1S">
+<!ENTITY menu.refreshAo "Reset Audio Sync...">
+<!ENTITY menu.osdMsg "Screen Message">
+<!ENTITY menu.switchOsd "Switch Osd Level">
+<!ENTITY menu.shortcutTips "Shortcut Tips">
+<!ENTITY menu.subtitle "Subtitle">
+<!ENTITY menu.switchSub "Switch Subtitle">
+<!ENTITY menu.upSub "Elevate Subtitle">
+<!ENTITY menu.downSub "Lower Subtitle">
+<!ENTITY menu.reduceSub "Reduce Subtitle">
+<!ENTITY menu.enlargeSub "Enlarge Subtitle">
+<!ENTITY menu.delaySub "Delay Subtitle 0.1S">
+<!ENTITY menu.advanceSub "Advance Subtitle 0.1S">
+<!ENTITY menu.refreshSub "Reset Subtitle Sync...">
+<!ENTITY menu.loadSubFont "Load Subtitle Font...">
+<!ENTITY menu.loadSubFile "Load Subtitle File...">
+<!ENTITY menu.playSpeed "Play Speed">
+<!ENTITY menu.speed1x "1x Speed">
+<!ENTITY menu.speed2x "2x Speed">
+<!ENTITY menu.speedUp "Speed Up">
+<!ENTITY menu.speedDown "Speed Down">
+
+<!ENTITY menu.transform "Video Transform">
+<!ENTITY menu.transRestore "Original">
+<!ENTITY menu.rotate90 "Rotate 90">
+<!ENTITY menu.rotate270 "Rotate 270">
+<!ENTITY menu.rotate90Flip "Rotate 90 &amp; Flip">
+<!ENTITY menu.rotate270Flip "Rotate 270 &amp; Flip">
+<!ENTITY menu.mirror "Mirror">
+<!ENTITY menu.flip "Flip">
+
+<!ENTITY menu.tipsSetting "Tips Setting">
+<!ENTITY menu.tipScreenshot "Tip After Screenshot">
+<!ENTITY menu.tipSetLang "Tip After Language Set">
+
+<!ENTITY menu.keepAspect "Seitenverhältnis beibehalten">
+<!ENTITY menu.openDVD   "DVD öffnen">
+<!ENTITY menu.openVCD   "VCD öffnen">
+<!ENTITY menu.openCD   "CD öffnen">
+<!ENTITY menu.help "Hilfe">
+<!ENTITY menu.about "Über">
+<!ENTITY menu.visitWebsite "(engl.) Website besuchen">
+<!ENTITY menu.visitCNWebsite "Visit Chinese Page">
+<!ENTITY menu.selFile "Disk Datei öffnen">
+<!ENTITY menu.selItem "Playlisten Eintrag öffnen">
+<!ENTITY menu.selectedFiles "geöffnete Dateien">
+<!ENTITY menu.screenshot "Screenshot erzeugen">
+<!ENTITY menu.imgshots "Get Video Screenshots">
+<!ENTITY menu.language "Language">
+<!ENTITY menu.current "Current">
+<!ENTITY menu.english "English">
+<!ENTITY menu.zhCN "Chinese (Simplified)">
+<!ENTITY menu.zhTW "Chinese (Traditional)">
+<!ENTITY menu.korean "Korean">
+<!ENTITY menu.slovak "Slovak">
+<!ENTITY menu.german "German">
+<!ENTITY menu.czech "Czech">
+<!ENTITY menu.japanese "Japanese">
+<!ENTITY menu.setSkin "Change Skin">
+<!ENTITY menu.mediaLib "Media Library">
+<!ENTITY menu.convertOptions "Convert Options">
+
+<!ENTITY menu.transcode "Transcode">
+<!ENTITY menu.transcode.start "Start Transcoding">
+<!ENTITY menu.transcode.stop "Stop Transcoding">
+<!ENTITY menu.transcode.pause "Pause Transcoding">
+<!ENTITY menu.transcode.setOutputFolder "Set Output Folder">
+<!ENTITY menu.transcode.preview "Preview Transcoded">
+<!ENTITY menu.transcode.previewDual "Compare in dual mode">
+
+<!ENTITY common.OK      "OK">
+<!ENTITY common.cancel      "Abbrechen">
+<!ENTITY common.apply      "Anwenden">
+
+<!ENTITY player.playlist "Abspielliste">
+<!ENTITY player.effects "Effekte">
+<!ENTITY player.properties "Eigenschaften">
+<!ENTITY player.projector "Projektor">
+<!ENTITY player.audio "Audio">
+<!ENTITY player.video "Video">
+<!ENTITY player.codec "Codec">
+<!ENTITY player.bitrate "Bitrate">
+<!ENTITY player.width "Breite">
+<!ENTITY player.height "Höhe">
+<!ENTITY player.fps "Frame-Rate">
+<!ENTITY player.aspect "Seitenverhältnis">
+<!ENTITY player.srate "Sample Rate">
+<!ENTITY player.channels "Kanäle">
+<!ENTITY player.forward "Vor">
+<!ENTITY player.rewind "Zurück">
+<!ENTITY player.next "Nächste">
+<!ENTITY player.previous "Vorherige">
+<!ENTITY player.stop "Stop">
+<!ENTITY player.pause "Pause">
+<!ENTITY player.play "Play">
+<!ENTITY player.url "URL">
+<!ENTITY player.browser "Browser">
+<!ENTITY player.dualMode "Dual-Video Modus">
+<!ENTITY player.player "Player">
+<!ENTITY player.crossFading "Cross Fading">
+<!ENTITY player.pickFile "Datei öffnen">
+<!ENTITY player.fixedOffset "Festes Offset">
+<!ENTITY player.reset "Reset">
+<!ENTITY player.resolution "Resolution">
+
+<!ENTITY player.dual.synchronise "Synchronise">
+<!ENTITY player.dual.syncPlay1 "Synchronise to Player 1">
+<!ENTITY player.dual.syncPlay2 "Synchronise to Player 2">
+<!ENTITY player.dual.syncToPos "Synchronise to Pos...">
+<!ENTITY player.dual.syncReplay "Replay Synchronously">
+
+<!ENTITY playlist.play "Play">
+<!ENTITY playlist.add "Datei hinzufügen">
+<!ENTITY playlist.remove "Abspielliste löschen">
+<!ENTITY playlist.clear "Löschen">
+<!ENTITY playlist.title "Titel">
+<!ENTITY playlist.filesize "Dateigrösse">
+<!ENTITY playlist.filetype "Dateityp">
+<!ENTITY playlist.filename "Datei-Pfad">
+<!ENTITY playlist.shuffle "Shuffle">
+<!ENTITY playlist.repeat "Repeat">
+
+<!ENTITY listManager.add "New">
+<!ENTITY listManager.rename "Rename">
+<!ENTITY listManager.title "List Manager">
+<!ENTITY listManager.load "Load Playlist...">
+<!ENTITY listManager.rename "Rename">
+
+<!ENTITY effects.colorAdjust "Farbjustierung">
+<!ENTITY effects.brightness "Helligkeit">
+<!ENTITY effects.contrast "Kontrast">
+<!ENTITY effects.saturation "Sättigung">
+<!ENTITY effects.gamma "Gamma">
+<!ENTITY effects.red "Rot">
+<!ENTITY effects.green "Grün">
+<!ENTITY effects.blue "Blau">
+<!ENTITY effects.postProc "Post-Processing">
+<!ENTITY effects.autoLevel "Auto Level">
+<!ENTITY effects.deblocking "Deblocking">
+<!ENTITY effects.deringing "Deringing">
+<!ENTITY effects.horizontal "Horizontal">
+<!ENTITY effects.vertical "Vertikal">
+<!ENTITY effects.disabled "abgeschaltet">
+<!ENTITY effects.enabled "angeschaltet">
+<!ENTITY effects.denoising "Denoising">
+<!ENTITY effects.deinterlacing "Deinterlacing">
+<!ENTITY effects.linearBlend "Lineare Blende">
+<!ENTITY effects.linearInterp "Lineare Interpolation">
+<!ENTITY effects.cubicInterp "Kubische Interpolation">
+<!ENTITY effects.median "Median">
+<!ENTITY effects.firLowpass "FIR Tiefpass">
+<!ENTITY effects.aspect "Seitenverhältnis">
+<!ENTITY effects.autoDetect "automatisch">
+<!ENTITY effects.normal "Normal">
+<!ENTITY effects.full "Voll">
+
+<!ENTITY projector.fuseWidth "überlappende Breite">
+<!ENTITY projector.rollWidth "Roll-off Breite">
+<!ENTITY projector.fuseArg1 "Roll-off Arg1">
+<!ENTITY projector.fuseArg2 "Roll-off Arg2">
+<!ENTITY projector.fusePos "überlappende Position">
+<!ENTITY projector.geometry "Geometrie">
+<!ENTITY projector.topCurve "obere Kurve">
+<!ENTITY projector.bottomCurve "untere Kurve">
+<!ENTITY projector.window "Fenster">
+<!ENTITY projector.screen "Monitor">
+
+<!ENTITY lyricList.title "Lyric">
+<!ENTITY medialib.searchMedia "Search Media Files">
+<!ENTITY medialib.importMedia "Import Media Files">
+<!ENTITY medialib.nowPlaying "Now Playing">
+<!ENTITY medialib.videoFiles "Video">
+<!ENTITY medialib.audioFiles "Audio">
+<!ENTITY medialib.imageFiles "Images">
+
+<!ENTITY mediaList.title "Title">
+<!ENTITY mediaList.duration "Duration">
+<!ENTITY mediaList.size "FileSize">
+<!ENTITY mediaList.genre "Genre">
+<!ENTITY mediaList.artist "Arist">
+<!ENTITY mediaList.album "Album">
+<!ENTITY mediaList.location "Location">
+<!ENTITY mediaList.transcoded "Transcoded">
+
+<!ENTITY mediaList.rate "Rate">
+<!ENTITY mediaList.addTo "Add to">
+<!ENTITY mediaList.homeVideo "Home video">
+<!ENTITY mediaList.movie "Movie">
+<!ENTITY mediaList.episode "Episode">
+<!ENTITY trancode.start "Start transcode">
+<!ENTITY trancode.pause "Pause transcode">
+<!ENTITY trancode.stop "Stop transcode">
+
+<!ENTITY tips.browser.goHome "Load Homepage">
+<!ENTITY tips.browser.goBack "Go Back">
+<!ENTITY tips.browser.goPrev "Go Forward">
+<!ENTITY tips.browser.stop "Stop">
+<!ENTITY tips.browser.refresh "Refresh">
+
+<!ENTITY tools.srcfile.name "Source File">
+<!ENTITY tools.outputdir.name "Output Directory">
+<!ENTITY tools.pictures.number "Output Image Number">
+<!ENTITY tools.outputimg.size "Output Image Size (By pixel)">
+<!ENTITY tools.outputimg.width "Output Image Width">
+<!ENTITY tools.outputimg.height "Output Image Height">
+<!ENTITY tools.aspect.keep "Keep Aspect">
+<!ENTITY tools.outputdir.browse "Browse">
+<!ENTITY tools.outputdir.default "Default Path">
+<!ENTITY tools.browse.info "Choose and Set">
+<!ENTITY tools.btn.start "start">
+<!ENTITY tools.btn.close "exit">
+<!ENTITY tools.imgshots.title "Make Shots">
+
+<!ENTITY window.box.close "Close">

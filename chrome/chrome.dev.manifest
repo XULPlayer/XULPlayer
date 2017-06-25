@@ -1,0 +1,10 @@
+content xulplayer file:content/xulplayer/
+locale xulplayer en-US file:locale/en-US/
+locale xulplayer zh-CN file:locale/zh-CN/
+locale xulplayer sk-SK file:locale/sk-SK/
+locale xulplayer cs-CZ file:locale/cs-CZ/
+locale xulplayer ko-KR file:locale/ko-KR/
+locale xulplayer de-DE file:locale/de-DE/
+locale xulplayer ja-JP file:locale/ja-JP/
+skin global classic/1.0 file:skin/classic/global/black/
+skin xulplayer classic/1.0 file:skin/classic/

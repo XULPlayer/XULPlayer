@@ -1,0 +1,275 @@
+﻿<!ENTITY player.title   "XULPlayer">
+<!ENTITY player.version   " Version ">
+<!ENTITY player.copyright "XULPlayer は GPL ライセンスの下に配布されているオープンソースの XUL を基礎としたデスクトップ メディア プレーヤーです。">
+<!ENTITY player.btOK   "OK">
+<!ENTITY player.btNO   "いいえ">
+
+<!ENTITY player.btSTART   "開始">
+
+<!ENTITY player.listTrack   "トラック">
+<!ENTITY player.listChapter   "チャプタ">
+<!ENTITY player.listAudioChannel   "オーディオ チャンネル">
+<!ENTITY player.listSubtitle   "字幕">
+
+<!ENTITY player.tabDevices   "デバイス">
+<!ENTITY player.tabAdvanced   "高度">
+<!ENTITY player.tabOutput   "出力">
+<!ENTITY player.tabEffects   "効果">
+<!ENTITY player.tabSplit   "分割">
+
+<!ENTITY player.sendMPCommand   "MPlayer コマンドの送信">
+<!ENTITY player.getResult   "結果を取得する">
+<!ENTITY player.videoOut   "ビデオ出力">
+<!ENTITY player.audioOut   "オーディオ出力">
+<!ENTITY player.outputChannels   "Output Channels">
+<!ENTITY player.noAccel   "加速なし">
+<!ENTITY player.options   "オプション">
+<!ENTITY player.default   "既定">
+<!ENTITY player.none   "なし">
+<!ENTITY player.extraCmdLine   "エクストラ コマンド ライン オプション">
+<!ENTITY player.fullView "フル ビュー">
+<!ENTITY player.compactView "コンパクト ビュー">
+<!ENTITY player.simpleView "シンプル ビュー">
+<!ENTITY player.miniView "ミニ ビュー">
+<!ENTITY player.deviceView "Device View">
+<!ENTITY player.priority "優先度">
+<!ENTITY player.idle "アイドル">
+<!ENTITY player.belowNormal "通常の下">
+<!ENTITY player.normal "通常">
+<!ENTITY player.aboveNormal "通常の上">
+<!ENTITY player.high "高">
+
+<!ENTITY menu.files "ファイルを開く">
+<!ENTITY menu.openUrl   "URL を開く">
+<!ENTITY menu.openFile   "ファイルの再生">
+<!ENTITY menu.addFolder "フォルダの追加">
+<!ENTITY menu.addFolderSub "フォルダとサブフォルダの追加">
+<!ENTITY menu.exit "終了">
+<!ENTITY menu.options "オプション">
+<!ENTITY menu.controls "コントロール">
+<!ENTITY menu.detached "分離されたビデオ ウィンドウ">
+<!ENTITY menu.videoSize "ビデオ サイズ">
+<!ENTITY menu.fitWindow "ウィンドウに合わせる">
+<!ENTITY menu.fitVideo "ビデオ サイズに合わせる">
+<!ENTITY menu.fullScreen   "全画面表示">
+<!ENTITY menu.windowTop   "常に手前">
+
+<!ENTITY menu.audioSet "オーディオ">
+<!ENTITY menu.switchAudio "オーディオの切り替え">
+<!ENTITY menu.delayAo "オーディオを 0.1S 遅延">
+<!ENTITY menu.advanceAo "オーディオを 0.1S 前進">
+<!ENTITY menu.refreshAo "オーディオ同期のリセット...">
+
+<!ENTITY menu.osdMsg "スクリーン メッセージ">
+<!ENTITY menu.switchOsd "Osd レベルの切り替え">
+<!ENTITY menu.shortcutTips "ショートカット チップ">
+
+<!ENTITY menu.subtitle "字幕">
+<!ENTITY menu.switchSub "字幕の切り替え">
+<!ENTITY menu.upSub "字幕を高く">
+<!ENTITY menu.downSub "字幕を低く">
+<!ENTITY menu.reduceSub "字幕の縮小">
+<!ENTITY menu.enlargeSub "字幕の拡大">
+<!ENTITY menu.delaySub "字幕を 0.1S 遅延">
+<!ENTITY menu.advanceSub "字幕を 0.1S 前進">
+<!ENTITY menu.refreshSub "字幕同期のリセット...">
+<!ENTITY menu.loadSubFont "字幕フォントの読み込み...">
+<!ENTITY menu.loadSubFile "字幕ファイルの読み込み...">
+
+<!ENTITY menu.playSpeed "再生速度">
+<!ENTITY menu.speed1x "1 倍速">
+<!ENTITY menu.speed2x "2 倍速">
+<!ENTITY menu.speedUp "加速">
+<!ENTITY menu.speedDown "減速">
+
+<!ENTITY menu.transform "ビデオの変形">
+<!ENTITY menu.transRestore "元">
+<!ENTITY menu.rotate90 "90 度回転">
+<!ENTITY menu.rotate270 "270 度回転">
+<!ENTITY menu.rotate90Flip "90 度回転と反転">
+<!ENTITY menu.rotate270Flip "270 度回転と反転">
+<!ENTITY menu.mirror "ミラー">
+<!ENTITY menu.flip "反転">
+
+<!ENTITY menu.tipsSetting "チップの設定">
+<!ENTITY menu.tipScreenshot "スクリーンショット後のチップ">
+<!ENTITY menu.tipSetLang "言語の設定後のチップ">
+
+<!ENTITY menu.keepAspect "アスペクト比の保持">
+<!ENTITY menu.openDVD   "DVD を開く">
+<!ENTITY menu.openVCD   "VCD を開く">
+<!ENTITY menu.openCD   "CD を開く">
+<!ENTITY menu.help "ヘルプ">
+<!ENTITY menu.about "バージョン情報">
+<!ENTITY menu.visitWebsite "ウェブサイトの訪問">
+<!ENTITY menu.visitCNWebsite "中国語のページの訪問">
+<!ENTITY menu.selFile "ディスク ファイルの抽出">
+<!ENTITY menu.selItem "プレイリスト アイテムの抽出">
+<!ENTITY menu.selectedFiles "抽出されたアイテム">
+<!ENTITY menu.screenshot "スクリーンショットを撮る">
+<!ENTITY menu.imgshots "Get Video Screenshots">
+<!ENTITY menu.language "言語">
+<!ENTITY menu.current "現在">
+<!ENTITY menu.english "英語">
+<!ENTITY menu.zhCN "中国語 (簡体字)">
+<!ENTITY menu.zhTW "中国語 (繁体字)">
+<!ENTITY menu.korean "韓国語">
+<!ENTITY menu.slovak "スロバキア語">
+<!ENTITY menu.german "ドイツ語">
+<!ENTITY menu.czech "チェコ語">
+<!ENTITY menu.japanese "日本語">
+<!ENTITY menu.setSkin "スキンの変更">
+<!ENTITY menu.mediaLib "Media Library">
+<!ENTITY menu.convertOptions "Convert Options">
+
+<!ENTITY menu.transcode "Transcode">
+<!ENTITY menu.transcode.start "Start Transcoding">
+<!ENTITY menu.transcode.stop "Stop Transcoding">
+<!ENTITY menu.transcode.pause "Pause Transcoding">
+<!ENTITY menu.transcode.setOutputFolder "Set Output Folder">
+<!ENTITY menu.transcode.preview "Preview Transcoded">
+<!ENTITY menu.transcode.previewDual "Compare in dual mode">
+
+<!ENTITY common.OK      "OK">
+<!ENTITY common.cancel      "キャンセル">
+<!ENTITY common.apply      "適用">
+
+<!ENTITY player.playlist "プレイリスト">
+<!ENTITY player.effects "効果">
+<!ENTITY player.properties "プロパティ">
+<!ENTITY player.projector "プロジェクタ">
+<!ENTITY player.audio "オーディオ">
+<!ENTITY player.video "ビデオ">
+<!ENTITY player.codec "コーデック">
+<!ENTITY player.bitrate "ビットレート">
+<!ENTITY player.width "幅">
+<!ENTITY player.height "高さ">
+<!ENTITY player.fps "フレーム レート">
+<!ENTITY player.aspect "アスペクト比">
+<!ENTITY player.srate "サンプル レート">
+<!ENTITY player.channels "チャンネル">
+<!ENTITY player.forward "進む">
+<!ENTITY player.rewind "戻る">
+<!ENTITY player.next "次へ">
+<!ENTITY player.previous "前へ">
+<!ENTITY player.stop "停止">
+<!ENTITY player.pause "一時停止">
+<!ENTITY player.play "再生">
+<!ENTITY player.url "URL">
+<!ENTITY player.browser "ブラウザ">
+<!ENTITY player.dualMode "デュアルビデオ モード">
+<!ENTITY player.player "プレーヤー">
+<!ENTITY player.crossFading "クロス フェード">
+<!ENTITY player.pickFile "ファイルの抽出">
+<!ENTITY player.fixedOffset "固定オフセット">
+<!ENTITY player.reset "リセット">
+<!ENTITY player.resolution "解像度">
+
+<!ENTITY player.dual.synchronise "Synchronise">
+<!ENTITY player.dual.syncPlay1 "Synchronise to Player 1">
+<!ENTITY player.dual.syncPlay2 "Synchronise to Player 2">
+<!ENTITY player.dual.syncToPos "Synchronise to Pos...">
+<!ENTITY player.dual.syncReplay "Replay Synchronously">
+
+<!ENTITY playlist.play "再生">
+<!ENTITY playlist.add "ファイルの追加">
+<!ENTITY playlist.remove "削除">
+<!ENTITY playlist.clear "クリア">
+<!ENTITY playlist.title "タイトル">
+<!ENTITY playlist.filesize "ファイル サイズ">
+<!ENTITY playlist.filetype "ファイルの種類">
+<!ENTITY playlist.filename "ファイル パス">
+<!ENTITY playlist.shuffle "シャッフル">
+<!ENTITY playlist.repeat "Repeat">
+
+<!ENTITY listManager.add "New">
+<!ENTITY listManager.rename "Rename">
+<!ENTITY listManager.title "List Manager">
+<!ENTITY listManager.load "Load Playlist...">
+<!ENTITY listManager.rename "Rename">
+
+<!ENTITY effects.colorAdjust "色の調整">
+<!ENTITY effects.brightness "明るさ">
+<!ENTITY effects.contrast "コントラスト">
+<!ENTITY effects.saturation "鮮やかさ">
+<!ENTITY effects.gamma "ガンマ">
+<!ENTITY effects.red "赤">
+<!ENTITY effects.green "緑">
+<!ENTITY effects.blue "青">
+<!ENTITY effects.postProc "後処理">
+<!ENTITY effects.autoLevel "自動レベル">
+<!ENTITY effects.deblocking "ブロック除去">
+<!ENTITY effects.deringing "リング除去">
+<!ENTITY effects.horizontal "水平">
+<!ENTITY effects.vertical "垂直">
+<!ENTITY effects.disabled "無効">
+<!ENTITY effects.enabled "有効">
+<!ENTITY effects.denoising "ノイズ除去">
+<!ENTITY effects.deinterlacing "インターレース解除">
+<!ENTITY effects.linearBlend "リニア ブレンド">
+<!ENTITY effects.linearInterp "リニア補間">
+<!ENTITY effects.cubicInterp "キュービック補間">
+<!ENTITY effects.median "中央地">
+<!ENTITY effects.firLowpass "FIR lowpass">
+<!ENTITY effects.aspect "アスペクト比">
+<!ENTITY effects.autoDetect "自動検出">
+<!ENTITY effects.normal "通常">
+<!ENTITY effects.full "完全">
+
+<!ENTITY projector.fuseWidth "オーバーラップの幅">
+<!ENTITY projector.rollWidth "Roll-off の幅">
+<!ENTITY projector.fuseArg1 "Roll-off 引数 1">
+<!ENTITY projector.fuseArg2 "Roll-off 引数 2">
+<!ENTITY projector.fusePos "オーバーラップの位置">
+<!ENTITY projector.geometry "幾何学">
+<!ENTITY projector.topCurve "上のカーブ">
+<!ENTITY projector.bottomCurve "下のカーブ">
+<!ENTITY projector.window "ウィンドウ">
+<!ENTITY projector.screen "画面">
+
+<!ENTITY lyricList.title "歌詞">
+<!ENTITY medialib.searchMedia "Search Media Files">
+<!ENTITY medialib.importMedia "Import Media Files">
+<!ENTITY medialib.nowPlaying "Now Playing">
+<!ENTITY medialib.videoFiles "Video">
+<!ENTITY medialib.audioFiles "Audio">
+<!ENTITY medialib.imageFiles "Images">
+
+<!ENTITY mediaList.title "Title">
+<!ENTITY mediaList.duration "Duration">
+<!ENTITY mediaList.size "FileSize">
+<!ENTITY mediaList.genre "Genre">
+<!ENTITY mediaList.artist "Arist">
+<!ENTITY mediaList.album "Album">
+<!ENTITY mediaList.location "Location">
+<!ENTITY mediaList.transcoded "Transcoded">
+
+<!ENTITY mediaList.addTo "Add to">
+<!ENTITY mediaList.homeVideo "Home video">
+<!ENTITY mediaList.movie "Movie">
+<!ENTITY mediaList.episode "Episode">
+<!ENTITY trancode.start "Start transcode">
+<!ENTITY trancode.pause "Pause transcode">
+<!ENTITY trancode.stop "Stop transcode">
+
+<!ENTITY tips.browser.goHome "Load Homepage">
+<!ENTITY tips.browser.goBack "Go Back">
+<!ENTITY tips.browser.goPrev "Go Forward">
+<!ENTITY tips.browser.stop "Stop">
+<!ENTITY tips.browser.refresh "Refresh">
+
+<!ENTITY tools.srcfile.name "Source File">
+<!ENTITY tools.outputdir.name "Output Directory">
+<!ENTITY tools.pictures.number "Output Image Number">
+<!ENTITY tools.outputimg.size "Output Image Size (By pixel)">
+<!ENTITY tools.outputimg.width "Output Image Width">
+<!ENTITY tools.outputimg.height "Output Image Height">
+<!ENTITY tools.aspect.keep "Keep Aspect">
+<!ENTITY tools.outputdir.browse "Browse">
+<!ENTITY tools.outputdir.default "Default Path">
+<!ENTITY tools.browse.info "Choose and Set">
+<!ENTITY tools.btn.start "start">
+<!ENTITY tools.btn.close "exit">
+<!ENTITY tools.imgshots.title "Make Shots">
+
+<!ENTITY window.box.close "Close">

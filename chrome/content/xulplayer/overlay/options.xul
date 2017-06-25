@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+
+<overlay id="options_overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<vbox id="tabOptions">
+<groupbox>
+    <grid>
+        <columns>
+            <column/>
+            <column/>
+        </columns>
+        <rows>
+            <row align="center">
+                <label>&player.videoOut;:</label>
+                <menulist id="optVideoOut" persist="value" oncommand="applyPlayerOptions()">
+                    <menupopup>
+                        <menuitem label="&player.default;" value=""/>
+                        <menuitem label="DirectX" value="directx"/>
+                        <menuitem label="DirectX (&player.noAccel;)" value="directx:noaccel"/>
+                        <menuitem label="Direct3D" value="direct3d"/>
+                        <menuitem label="OpenGL" value="gl"/>
+                        <menuitem label="&player.none;" value="null"/>
+                    </menupopup>
+                </menulist>
+            </row>
+            <row align="center">
+                <label>&player.audioOut;:</label>
+                <menulist id="optAudioOut" persist="value" oncommand="applyPlayerOptions()">
+                            <menupopup>
+                                <menuitem label="&player.default;" value=""/>
+                                <menuitem label="Win32 Waveout" value="win32"/>
+                                <menuitem label="DirectSound" value="dsound"/>
+                                <menuitem label="&player.none;" value="null"/>
+                            </menupopup>
+                </menulist>
+            </row>
+            <row align="center">
+                <label>&player.outputChannels;:</label>
+                <menulist id="optAudioChannels" persist="value" oncommand="applyPlayerOptions()">
+                            <menupopup>
+                                <menuitem label="&player.default;" value=""/>
+                                <menuitem label="&player.mono; (&player.leftChannel;)" value="1:0"/>
+                                <menuitem label="&player.mono; (&player.rightChannel;)" value="1:1"/>
+                                <menuitem label="&player.stereo;" value="2"/>
+                                <menuitem label="4.1" value="5"/>
+                                <menuitem label="5.1" value="6"/>
+                            </menupopup>
+                </menulist>
+            </row>
+            <row align="center">
+                <label>&player.priority;:</label>
+                <menulist id="optPriority" persist="value">
+                            <menupopup>
+                                <menuitem label="&player.default;" value=""/>
+                                <menuitem label="&player.idle;" value="idle"/>
+                                <menuitem label="&player.belowNormal;" value="belownormal"/>
+                                <menuitem label="&player.normal;" value="normal"/>
+                                <menuitem label="&player.aboveNormal;" value="abovenormal"/>
+                                <menuitem label="&player.high;" value="high"/>
+                            </menupopup>
+                </menulist>
+            </row>
+            <!--row>
+                <checkbox id="dualmon" label="Dual-Monitor Mode" persist="checked"/>
+                <textbox id="monid" persist="value" value="2"/>
+            </row-->
+            <row align="center">
+                <label>&player.extraCmdLine;:</label>
+                <textbox id="extraCmdLine" flex="1" persist="value"/>
+            </row>
+        </rows>
+    </grid>
+</groupbox>
+<groupbox>
+<hbox align="center">
+<label class="tablabel2">&effects.aspect;:</label>
+<menulist id="optAspect" persist="value" flex="1" oncommand="applyPlayerOptions()">
+     <menupopup>
+         <menuitem label="&effects.autoDetect;" value=""/>
+         <menuitem label="4:3" value="4:3"/>
+         <menuitem label="16:9" value="16:9"/>
+         <menuitem label="2.35:1" value="2.35:1"/>
+     </menupopup>
+</menulist>
+</hbox>
+</groupbox>
+</vbox>
+
+</overlay>

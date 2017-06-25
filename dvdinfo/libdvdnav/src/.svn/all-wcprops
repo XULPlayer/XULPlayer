@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src
+END
+dvdnav.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdnav.c
+END
+dvdnav_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdnav_internal.h
+END
+dvdnav.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdnav.h
+END
+README.MAP
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/README.MAP
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/Makefile.am
+END
+read_cache.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/read_cache.c
+END
+navigation.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/navigation.c
+END
+settings.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/settings.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/Makefile.in
+END
+read_cache.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/read_cache.h
+END
+searching.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/searching.c
+END
+remap.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/remap.c
+END
+dvd_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvd_types.h
+END
+FELLOWSHIP.map
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/FELLOWSHIP.map
+END
+highlight.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/highlight.c
+END
+remap.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/remap.h
+END
+dvdnav_events.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/133/trunk/dvdinfo/libdvdnav/src/dvdnav_events.h
+END

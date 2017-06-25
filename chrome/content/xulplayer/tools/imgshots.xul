@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://xulplayer/locale/xulplayer.dtd">
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://xulplayer/skin/default.css" type="text/css"?>
+<?xml-stylesheet href="chrome://xulplayer/skin/tools.css" type="text/css"?>
+<window id="tool_imgshots"
+        title="&tools.imgshots.title;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        height="360" width="480"
+        onload="winInit(window.arguments);" onclose="stop_shots();"
+        >
+    <script src="../js/io.js" type="application/x-javascript"/>
+    <script src="../js/htmhelper.js" type="application/x-javascript"/>
+    <script src="../js/common.js" type="application/x-javascript"/>
+    <script src="imgshots.js" type="application/x-javascript"/>
+    <groupbox flex="2">
+        <rows flex="1">
+            <row align="center" flex="1">
+                <label class="label_text_left label_head_imgshots">&tools.srcfile.name;:</label>
+                <label id="src_text" value="none"></label>
+            </row>
+            <row align="center" flex="1">
+                <label class="label_text_left label_head_imgshots">&tools.outputdir.name;:</label>
+                <textbox id="output_text" value="&tools.outputdir.default;" readonly="true" width="160px"></textbox>
+                <button label="&tools.outputdir.browse;" oncommand="setOutput('&tools.browse.info;')"></button>
+            </row>
+            <row align="center" flex="1">
+                <label class="label_text_left label_head_imgshots">&tools.pictures.number;:</label>
+                <textbox class="text_number_imgshots" id="pics_text" value="10" type="number" min="1"></textbox>
+            </row>
+            <row align="center" flex="1">                
+                <rows>
+                    <row align="center">
+                        <label>&tools.outputimg.size;:</label>
+                    </row>
+                    <row align="center">
+                        <spacer width="190px" flex="2"/>
+                        <checkbox flex="1" id="keep_aspect" label="&tools.aspect.keep;" checked="true" align="center"></checkbox>
+                    </row>
+                    <row align="center">
+                        <label class="label_text_left label_head_imgshots">&tools.outputimg.width;:</label>                  
+                        <textbox class="text_number_imgshots" id="width_text" value="32" type="number" min="0" increment="2" onchange="keepHeight()"></textbox>
+                    </row>
+                    <row align="center">
+                        <label class="label_text_left label_head_imgshots">&tools.outputimg.height;:</label>
+                        <textbox class="text_number_imgshots" id="height_text" value="18" type="number" min="0" increment="2" onchange="keepWidth()"></textbox>
+                    </row>
+                </rows>
+            </row>            
+        </rows>
+    </groupbox>
+    <progressmeter id="progress_pics" value="0"></progressmeter>
+    <row align="center" flex="1">
+        <button id="btn_start" label="&tools.btn.start;" oncommand="start_shots()" flex="1"></button>
+        <spacer flex="2"/>
+        <label id="file_percent"/>
+        <spacer flex="2"/> 
+        <button label="&tools.btn.close;" oncommand="stop_shots();window.close();" flex="1"></button>
+    </row>
+</window>

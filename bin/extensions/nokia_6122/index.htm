@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Nokia 6122</title>
+<link rel="stylesheet" href="/style/template.css" type="text/css"/>
+<script language="JavaScript" src="/include/xmlrpc.js" type="text/javascript"></script>
+<script language="JavaScript" src="/include/extension.js" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript" src="/include/plugin_js/common.js"></script>
+<script language="JavaScript" type="text/javascript" src="/include/plugin_js/converter.js"></script>
+<script language="JavaScript" type="text/javascript" src="/include/plugin_js/player.js"></script>
+<script language="JavaScript" type="text/javascript" src="/include/plugin_js/domhelper.js"></script>
+<script language="JavaScript" type="text/javascript" src="/include/plugin_js/divPop.js"></script>
+<script language="JavaScript" type="text/javascript" src="/include/plugin_js/interop.js"></script>
+<script language="JavaScript" type="text/javascript" src="/include/plugin_js/htmhelper.js"></script>
+<script language="JavaScript" type="text/javascript" src="/include/plugin_js/progressBar.js"></script>
+<script language="JavaScript" type="text/javascript" src="/include/plugin_js/gui.js"></script>
+<script language="JavaScript" type="text/javascript" src="/include/plugin_js/filelist.js"></script>
+<script language="JavaScript" type="text/javascript" src="/include/plugin_js/XMLWrap.js"></script>
+</head>
+<body>
+<div id="page_bg">
+  <!--center start-->
+  <div class="center">
+    <div id="wrapper">
+      <div id="content">
+      
+        <!-- extension code start-->
+        <img src="nokia6122.jpg"/>
+        <script language="JavaScript" type="text/javascript">
+function getDefaultPrefs()
+{
+var xml = '<?xml version="1.0" encoding="UTF-8"?>\
+<MediaCoderPrefs>\
+ <node key="overall.video.enabled" value="true"/>\
+ <node key="overall.video.format" value="XviD"/>\
+ <node key="overall.video.mode" value="Bitrate-based"/>\
+ <node key="overall.video.bitrate" value="300"/>\
+ <node key="overall.audio.encoder" value="FAAC"/>\
+ <node key="overall.container.format" value="MP4"/>\
+ <node key="overall.container.external" value="Enabled"/>\
+ <node key="videoenc.xvid.profile" value="Simple Profile Level 3"/>\
+ <node key="videoenc.x264.profile" value="Baseline"/>\
+ <node key="videoenc.x264.level" value="13"/>\
+ <node key="audioenc.faac.quality" value="50"/>\
+ <node key="audioenc.faac.mode" value="Quality"/>\
+ <node key="audioenc.mencoder.codec" value="FAAC"/>\
+ <node key="videofilter.scale.enabled" value="true"/>\
+ <node key="videofilter.scale.width" value="320"/>\
+ <node key="videofilter.scale.height" value="240"/>\
+ <node key="videofilter.crop.mode" value="Crop to fit"/>\
+ <node key="videofilter.frame.enabled" value="true"/>\
+ <node key="videofilter.frame.fps" value="15"/>\
+ <node key="videofilter.frame.fpsScale" value="1"/>\
+ <node key="audiofilter.resample.samplerate" value="22050"/>\
+ <node key="audiofilter.resample.downSamplingOnly" value="true"/>\
+ <node key="extensions.device.videoPath" value="/VIDEOS"/>\
+</MediaCoderPrefs>';
+
+return xml;
+}
+</script>
+        <!-- extension code end-->
+        
+      </div>
+    </div>
+  </div>
+  <!-- hidden form to do POST -->
+  <div style='display:none'>
+    <form id='rpcform' method='post' target='rpcframe' enctype='application/x-www-form-urlencoded'>
+      <input id="norevert" type='hidden' name='norevert' value='0'/>
+      <textarea name='payload'></textarea>
+    </form>
+    <iframe id='rpcframe' name='rpcframe'></iframe>
+  </div>
+  <div align="center" style="font-size:10px">Media Transcoding Platform (C)2009 Borad Intelligence Technologies</div>
+</div>
+<embed id="lcd" width="0" height="0" type="application/x-xulplayer-scriptable-plugin" pluginspage="http://www.mcex.org/iecoder/xulplayer_plugin.xpi" />
+<script language="JavaScript" type="text/javascript">
+if (mcport) document.write("| MediaCoder Port: "+mcport);
+Init();
+</script>
+</embed>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!-- You may find the license in the LICENSE file -->
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://xulplayer/skin/downloader/style.css" type="text/css"?>
+
+<!DOCTYPE Dialog [
+	<!ENTITY % globalDTD SYSTEM "chrome://global/locale/global.dtd">
+	%globalDTD;
+	<!ENTITY % downloaderDTD SYSTEM "chrome://xulplayer/locale/downloader.dtd">
+	%downloaderDTD;
+]>
+
+<?xul-overlay href="manager/tooltip.xul"?>
+<?xul-overlay href="manager/dmain.xul"?>
+
+<window
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	onload="MDialog.init();" 
+	title="&title;"
+	id="DownloadManager"
+	onunload="return MDialog.unload();"
+	onclose="return MDialog.close();"
+	onblur="Tree.stopTip();"
+	width="600" height="400"
+	persist="width height screenX screenY sizemode" 
+	>
+
+	<script type="application/javascript" src="../js/libp2p.js" />
+	<script type="application/javascript" src="base64.js" />
+	<script type="application/javascript" src="ajax.js" />
+	<script type="application/javascript" src="utorrent.js" />
+	<script type="application/javascript" src="emule.js" />
+	<script type="application/javascript" src="mlnet.js" />
+	<script type="application/javascript" src="internal.js" />
+	<script type="application/javascript" src="helper.js" />
+	<script type="application/javascript" src="manager.js" />
+	<script type="application/javascript" src="manager/queueitem.js" />
+	<script type="application/javascript" src="manager/tree.js" />
+	<script type="application/javascript" src="manager/tooltip.js" />
+
+	
+	<script type="application/x-javascript" src="chrome://global/content/nsDragAndDrop.js"/>
+	<script type="application/x-javascript" src="chrome://global/content/nsTransferable.js"/> 
+
+	<stringbundleset>
+		<stringbundle src="chrome://xulplayer/locale/downloader.properties"/>
+	</stringbundleset>
+
+	<keyset>
+		<key id="esc" keycode="VK_ESCAPE" oncommand="MDialog.close();"/>
+		<key id="kMacEsc" modifiers="accel" key="W" oncommand="MDialog.close();"/>
+		<key id="enter" keycode="VK_RETURN" oncommand="FileHandling.openFile();"/>
+		<key id="sAll" modifiers="accel" key="A" oncommand="Tree.selectAll();"/>
+		<key id="kUp" modifiers="alt" keycode="VK_PAGE_UP" oncommand="Tree.up();"/>
+		<key id="kDown" modifiers="alt" keycode="VK_PAGE_DOWN" oncommand="Tree.down();"/>
+		<key id="kCancel" keycode="VK_DELETE" oncommand="Tree.remove(null, true);"/>
+		<key id="kMacCancel" modifiers="meta" keycode="VK_BACK" oncommand="Tree.remove(null, true);"/>
+		<key id="kTop" modifiers="alt" keycode="VK_HOME" oncommand="Tree.top();"/>
+		<key id="kBottom" modifiers="alt" keycode="VK_END" oncommand="Tree.bottom();"/>
+		<key id="kPause" modifiers="accel" key="P" oncommand="Tree.pause();"/>
+		<key id="kResume" modifiers="accel" key="R" oncommand="Tree.resume();"/>
+		<key id="kAdd" modifiers="accel" key="+" oncommand="window.openDialog('chrome://xulplayer/content/downloader/addurl.xul','_blank','chrome,centerscreen,Dialog,dependent');"/>
+		<key id="kGetInfo" modifiers="accel" key="I" oncommand="Tree.showInfo();"/>
+		<key id="kNewWin" modifiers="accel" key="N" oncommand="window.open('about:blank', 'New Window');"/>
+	</keyset>
+	
+
+	<popupset>
+		<popup id="popup" />
+		<tooltip id="tooltip" position="at_pointer" noautohide="true" onpopupshowing="return Tree.showTip(event);" onpopuphiding="Tree.stopTip();" orient="vertical">
+			<hbox id="infoBox"/>
+			<grid id="canvasGrid"/>
+		</tooltip>
+	</popupset>	
+	
+	<stack flex="1" id="mainstack">
+		<vbox flex="1">
+			<toolbox>
+			  <toolbar id="tools" />
+			</toolbox>
+			<tree id="downloads" />
+		</vbox>
+		<vbox id="loadingbox" />
+	</stack>
+
+	<statusbar id="footer">
+		 <statusbarpanel id="statusText" label="" flex="1" />
+		 <statusbarpanel id="options" class="statusbarpanel-iconic-text" label="&options.label;" onclick="showPreferences();" src="chrome://xulplayer/skin/downloader/prefs.png" />
+	</statusbar>
+	
+</window>
